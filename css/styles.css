@@ -6,40 +6,44 @@
     box-sizing: border-box;
 }
 
-
 h1{
     font-family: "Ruslan Display", sans-serif;
     color: #F33829;
     font-size: 5rem;
 }
+
 h2{
     font-family: "Ruslan Display", sans-serif;
     color: #F33829;
     font-size: 3rem;
 }
+
 p{
     font-family: "Poppins", sans-serif;
 }
+
 ul{
     font-family: "Poppins", sans-serif;
 }
+
 main{
     width: 90rem;
 }
 
-/*
------------header
-*/
+/*-----------header-------------------*/
 header{
     background-color: black;
 }
+
 .navbar{
     list-style: none;
 }
+
 .navbar li a{
     color: aliceblue;
     text-decoration: none;
 }
+
 .isotipoHeader{
     width: 9.375rem;
     height: 3.125rem;
@@ -51,65 +55,17 @@ header{
 }
 
 
-
-/*
---------------main
-*/
-
-.bannerHome{
-    width: 90rem;
-    height: 60.875rem;
-}
-.isologoBody{
-    width: 20rem;
-    height: 7rem;
-}
-.telarRomboSi{
-    width: 54.0625rem;
-    height: 32.5rem;
-}
-.telarRomboSd{
-    width: 27.4375rem;
-    height: 13.9375rem;
-}
-.telarRomboMi1 {
-    width: 8.125rem;
-    height: 21.5625rem;
-}
-.telarRomboMi2 {
-    width: 17.1875rem;
-    height: 57.6875rem
-}
-
-.telarRomboMi3 {
-    width: 8.125rem;
-    height: 9.5625rem;
-}
-
-.telarRomboMi3 {
-    width: 8.125rem;
-    height: 89.5rem;
-}
-
-.telarRomboIi {
-    width: 58.875rem;
-    height: 12.75rem;
-}
-.telarRomboId {
-    width: 23.375rem;
-    height: 30.1875rem;
-}
-    /*
-    .--------------Cultura telar
-    */
+    /*    .--------------Cultura telar -------    */
 .bannerCulturaTelar{
     width: 90rem;
     height: 61.5625rem;
 }
+
 .telarCulrural{
     width: 28.875rem;
     height: 36.6875rem;
 }
+
     /*
     ----------------telares
     */
@@ -117,30 +73,31 @@ header{
     width: 90rem;
     height: 84.625rem;
 }
+
 .telares{
     width: 23.875rem;
     height: 45.5rem;
 }
+
 .backgroundColorTelares{
     background-color: #1E1E1E;
 }
+
 .whiteLista{
     color: aliceblue;
 }
+
 .tituloLista{
     color: #027381;
 }
-        /*
-        ----------------dónde comprar
-        */
+
+/*---------------dónde comprar----------*/
 .listaTellar{
     width: 11.5rem;
     height: 12.125rem;
 }
 
-        /*
-        ----------------visitanos
-        */
+/*----------------visitanos-------------*/
 .collageBanner{
     width: 90rem;
     height: 43.375rem;
@@ -149,34 +106,38 @@ header{
     width: 40rem;
     height: 15rem;
 }
+
 .maestroTejedor{
     width: 26.4375rem;
     height: 33.5625rem;
 }
+
 .visitasGuiadas{
     background-color: #0EB9CB;
 }
 
-/*
---------------footer
-*/
+/*------------footer-------------*/
 
 .icoMedioPago{
     width: 6.5rem;
     height: 3rem;
 }
+
 .icoRedSocial{
     width: 3rem;
     height: 2rem;
 }
+
 .icoCopyrigth{
     width: 1.5rem;
     height: 1.5rem;
 }
+
 footer{
     background-color: black;
     color: aliceblue;
 }
+
 .isotipoFooter{
     width: 22rem;
     height: 8rem;
