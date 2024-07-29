@@ -55,6 +55,45 @@ header{
     height: 2.5rem;
 }
 
+/*  ---------------banner------------------------- */
+.bannerPagina{
+    position: relative;
+    margin-bottom: 3.125rem;
+}
+
+.textBanner{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 70%;
+    height: 80%;
+    padding: 1.25rem;
+}
+.textBannerTitle{
+    font-size: 8.75rem;
+    padding-right: 100px;
+    margin-bottom: 90px;
+}
+
+.textBannerFrase{
+    padding-right: 12.5rem;
+    margin: 5rem 0rem 2.5rem 0rem;
+    color: #FFF;
+}
+.btnPagina{
+    padding: .9375rem 3.125rem;
+    font-size: 1em;
+    color: #FFF;
+    background-color: #F33829;
+    border: 0px solid red;
+    border-radius: .3125rem;
+    transition: background-color 0.3s;
+    margin: .625rem 0px;
+}
+
+.btnPagina:hover{
+    background-color: #0EB9CB;
+}
 
     /*    .--------------Cultura telar -------    */
 .bannerCulturaTelar{
@@ -151,7 +190,6 @@ footer{
 
 .bannerHome {
     width: 100%;
-
 }
 
 .isologoBody {
@@ -200,20 +238,18 @@ footer{
 }
 
 .gridTelares {
-
     display: grid;
     grid-template-columns: 1fr 1fr repeat(4, 2fr) 1fr;
-    grid-template-rows: 6.25rem 6.25rem 9.375rem repeat(12, 8rem);
+    grid-template-rows: 5rem 5rem 7.5rem repeat(12, 8rem);
     /*gap: 10px; */
-    margin: 0;
-    padding: 0;
+    margin: 20;
 
 }
 .gridImagen1 {
     grid-area: 1 / 1 / 4 / 5;
-    background-size: contain;
-    background-position: 100%;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -273,6 +309,38 @@ footer{
 }
 
 .gridTitle1{
-    grid-area: 4 / 3 / 9 / 4;
-    background-color: red;
+    grid-area: 4 / 3 / 10 / 4;
+    display: flex;
+    align-items: start;
+    padding-top: 50px;
+}
+.textOrigen{
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-family: "Poppins", sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    transform: rotate(180deg);
+    color: #726E6E;
+}
+.gridTextHistory1{
+    grid-area: 4 / 4 / 10 / 7;
+    padding-top: 6.25rem;
+}
+.gridTitle2{
+    grid-area: 10 / 3 / 11 / 7;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.titleSpan{
+    font-size: 5rem;
+    color: #726E6E;
+}
+.titleMaestro{
+    font-size: 5rem;
+    padding: 1.875rem;
+}
+.gridTextHistory2{
+    grid-area: 11 / 4 / 14 / 7;
 }
