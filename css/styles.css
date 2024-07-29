@@ -27,7 +27,8 @@ ul{
 }
 
 main{
-    width: 90rem;
+    width: 100%;
+
 }
 
 /*-----------header-------------------*/
@@ -155,7 +156,7 @@ footer{
 
 .isologoBody {
     width: 60%;
-    height: 90%;
+    height: 80%;
 }
 
 .telarRomboSi {
@@ -166,45 +167,44 @@ footer{
 .telarRomboSd {
     width: 80%;
     height: 100%;
-
 }
 
 .telarRomboMi1 {
     width: 40%;
-    height: 70%;
+    height: 100%;
 }
 
 .telarRomboMi2 {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 70%;
 }
 
 .telarRomboMi3 {
     width: 40%;
-    height: 70%;
+    height: 100%;
 }
 
-.telarRomboMi3 {
-    width: 8.125rem;
-    height: 89.5rem;
+.telarRomboMd {
+    width: 70%;
+    height: 100%;
 }
 
 .telarRomboIi {
-    width: 58.875rem;
-    height: 12.75rem;
+    width: 92.5%;
+    height: 100%;
 }
 
 .telarRomboId {
-    width: 23.375rem;
-    height: 30.1875rem;
+    width: 80%;
+    height: 100%;
 }
 
 .gridTelares {
 
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(15, 8rem);
-    gap: 10px;
+    grid-template-columns: 1fr 1fr repeat(4, 2fr) 1fr;
+    grid-template-rows: 6.25rem 6.25rem 9.375rem repeat(12, 8rem);
+    /*gap: 10px; */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -218,14 +218,14 @@ footer{
 }
 
 .gridImagen2 {
-    grid-area: 1 / 5 / 2 / 8;
+    grid-area: 1 / 5 / 3 / 8;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .gridImagen3 {
-    grid-area: 2 / 5 / 4 / 8;
+    grid-area: 3 / 5 / 4 / 8;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -233,39 +233,48 @@ footer{
 
 .gridImagen4 {
     grid-area: 4 / 7 / 14 / 8;
-    background-color: brown;
+    display: flex;
+    justify-content: right;
+    align-items: center ;
 }
 
 .gridImagen5 {
     grid-area: 14 / 6 / 16 / 8;
-    background-color: turquoise;
+    display: flex;
+    justify-content: right;
+    align-items: center ;
 }
 
 .gridImagen6 {
     grid-area: 14 / 1 / 15 / 6;
-    background-color: violet;
-}
-
-.gridImagen7 {
-    grid-area: 12 / 1 / 14 / 3;
-
-}
-
-.gridImagen8 {
-    grid-area: 7 / 1 / 12 / 3;
-
-}
-
-.gridImagen9 {
-    grid-area: 4 / 1 / 7 / 3;
     display: flex;
     justify-content: right;
     align-items: center;
 }
 
+.gridImagen7 {
+    grid-area: 12 / 1 / 14 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridImagen8 {
+    grid-area: 7 / 1 / 12 / 3;
+    display: flex;
+    align-items: center;
+}
+
+.gridImagen9 {
+    grid-area: 4 / 1 / 7 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .gridTexto1 {
     grid-area: 4 / 3 / 14 / 7;
-    background-color: white;
+    background-color: turquoise;
     font-size: 2em;
     text-align: center;
 }
