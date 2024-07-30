@@ -29,22 +29,9 @@ ul{
 
 main{
     width: 100%;
-
 }
 
 /*-----------header-------------------*/
-header{
-    background-color: black;
-}
-
-.navbar{
-    list-style: none;
-}
-
-.navbar li a{
-    color: aliceblue;
-    text-decoration: none;
-}
 
 .isotipoHeader{
     width: 9.375rem;
@@ -52,8 +39,10 @@ header{
 }
 
 .iconNavbar{
-    width: 4rem;
+    margin-top: .9375rem;
+    width: 3.4375rem;
     height: 2.5rem;
+    padding: .3125rem;
 }
 
 /*  ---------------banner------------------------- */
@@ -160,13 +149,13 @@ header{
 /*------------footer-------------*/
 
 .icoMedioPago{
-    width: 6.5rem;
-    height: 3rem;
+    width: 50px;
+    height: 1.875rem;
 }
 
 .icoRedSocial{
-    width: 3rem;
-    height: 2rem;
+    width: 25px;
+    height: 25px;
 }
 
 .icoCopyrigth{
@@ -177,13 +166,95 @@ header{
 footer{
     background-color: black;
     color: aliceblue;
+    padding: 1.25rem 0;
 }
-
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 20px;
+}
 .isotipoFooter{
-    width: 22rem;
-    height: 8rem;
+    width: 18.75rem;
+    height: 5.625rem;
 }
+.infoStructure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.infoSection{
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+.infoSection h3{
+    margin-bottom: 10px;
+}
+.infoSection ul{
+    list-style: none;
+    padding: 0;
+}
+.infoSection ul li{
+    margin-bottom: 5px;
+}
+.infoSection ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.socialNetPayments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.socialNet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    margin-bottom: 10px;
 
+}
+.socialNet a img{
+    margin: 0 10px;
+}
+.payments {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+.payments img{
+    margin: .3125rem;
+    margin-bottom: 1.25rem;
+}
+.footerLegal{
+    text-align: center;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .infoStructure {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socialNetPayments {
+        flex-direction: column;
+    }
+
+    .socialNet, .payments {
+        margin-bottom: 20px;
+    }
+}
 
 
 
