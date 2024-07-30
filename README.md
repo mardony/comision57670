@@ -43,11 +43,7 @@ Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
     ```sh
     git clone https://github.com/mardony/comision57670.git
     ```
-2. Navega al directorio del proyecto:
-    ```sh
-    cd telar-oncebay
-    ```
-3. Abre `index.html` en tu navegador web preferido.
+2. Abre `[index.html](https://mardony.github.io/comision57670/)` en tu navegador web preferido.
 
 ## Contribuciones
 
