@@ -41,7 +41,7 @@ Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona este repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/telar-oncebay.git
+    git clone https://github.com/mardony/comision57670.git
     ```
 2. Navega al directorio del proyecto:
     ```sh
