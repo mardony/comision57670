@@ -7,8 +7,8 @@ Bienvenido al repositorio de **Telar Oncebay**, una web dedicada a la rica tradi
 La web está dividida en cinco secciones principales:
 
 1. **Origen**
-2. **Cultura del Telar**
-3. **Telares**
+2. **Cultura del Telar** (responsive)
+3. **Telares** (responsive)
 4. **Dónde Comprar**
 5. **Visítanos**
 
@@ -63,8 +63,8 @@ Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consult
 
 Para más información, sugerencias o consultas, por favor contacta a:
 
-**Telar Oncebay Team**  
-Email: [info@ingenieriambym.com](mailto:info@ingenieriambym.com)  
+**Telar Oncebay Team**
+Email: [info@ingenieriambym.com](mailto:info@ingenieriambym.com)
 Website: [www.ingenieriambym.com](http://www.ingenieriambym.com)
 
 ---
