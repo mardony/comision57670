@@ -586,7 +586,7 @@ main {
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
 
     .describeTelar1,
     .describeTelar2,
@@ -605,6 +605,12 @@ main {
         font-size: 0.9em;
         border-radius: .625rem;
         margin-top: 10px;
+    }
+
+    .isotipoAgua1,
+    .isotipoAgua2,
+    .isotipoAgua3 {
+        background-color: #726E6E;
     }
 }
 
@@ -992,7 +998,6 @@ footer {
     padding-right: 3.75rem;
 }
 
-/* -------------------responsive---------------------*/
 @media (max-width:1500px) {
     .textBannerTitle {
         font-size: 6.25rem;
@@ -1223,4 +1228,200 @@ footer {
         font-size: 0.50em;
         margin-bottom: 10px;
     }
+}
+
+/*----------------pagina donde comprar--------------*/
+/*-------------------------------------------------*/
+.imgIsotipoCompra{
+    width: 20%;
+    margin-top: 6.25rem ;
+    margin-left: 6.25rem;
+}
+.titleDondeComprar{
+    margin-left: 6.25rem;
+    font-size: 40px;
+}
+
+.gridDondeComprar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    column-gap: 6.25rem;
+    row-gap: 3.125rem;
+    padding: 3.125rem;
+    margin: 1.25rem;
+
+}
+
+.contactoCompra {
+    grid-area: 1 / 1 / 2 /2;
+    display: block;
+
+}
+
+.entregaCompra {
+    grid-area: 2 / 1 / 3 /2;
+    display: block;
+}
+
+.pagoCompra {
+    grid-area: 3 / 1 / 4 / 2;
+    display: block;
+}
+
+.resumenCompra {
+    grid-area: 1 / 2 / 4 / 3;
+    display: block;
+}
+
+.contenedorCard {
+    background-color: #969696;
+    padding-top: .9375rem;
+    padding-bottom: .9375rem;
+    padding-left: .9375rem;
+    color: #FFF;
+    border-top-left-radius: .9375rem;
+    border-top-right-radius: .9375rem;
+}
+
+.contenedorFormPago {
+    background-color: #d1cfcf;
+    padding-bottom: 1.25rem;
+    border-bottom-left-radius: .9375rem;
+    border-bottom-right-radius: .9375rem;
+
+}
+
+.inicioContacto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datosContacto {
+    margin-top: .625rem;
+    padding: .5rem;
+    border-radius: .75rem;
+    border-style: .0625rem solid rgb(160, 160, 160);
+    width: 98%;
+}
+
+.datosEntrada {
+    margin-top: .625rem;
+    padding: .5rem;
+    border-radius: .75rem;
+    border-style: .0625rem solid rgb(160, 160, 160);
+    width: 98%;
+}
+
+.datosEntradaMedio {
+    margin-top: .625rem;
+    padding: .5rem;
+    border-radius: .75rem;
+    border-style: .0625rem solid rgb(160, 160, 160);
+    width: 48%;
+}
+
+.datosEnvioMundo {
+    margin-top: .625rem;
+    display: flex;
+}
+
+.casillasPago {
+    margin-bottom: 1.25rem;
+}
+
+.datosPago {
+    margin-top: .625rem;
+    padding: .5rem;
+    margin-left: .9375rem;
+    border-radius: .75rem;
+    border-style: none;
+    width: 93%;
+}
+
+.fechaPago {
+    display: flex;
+}
+
+.datosPagoM {
+    margin-top: .625rem;
+    padding: .5rem;
+    margin-left: .9375rem;
+    border-radius: .75rem;
+    border-style: none;
+    width: 44%;
+}
+
+.guia {
+    font-size: 1.25rem;
+    font-family: "Poppins", sans-serif;
+    color: #1E1E1E;
+}
+
+.resumenProductosTelar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+.cuponResumen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datoCupon {
+    width: 50%;
+    padding: .5rem;
+    border-radius: .75rem;
+}
+
+.datosCompraResumen {
+    font-size: 10px;
+    padding-top: .625rem;
+    padding-left: 1.875rem;
+}
+
+.btnDatoCupon {
+    width: 40%;
+    padding: .5rem;
+    border-radius: .75rem;
+    background-color: #F33829;
+    color: aliceblue;
+    border-style: none;
+}
+
+.resumenMmonto {
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btnPagarTelar {
+    width: 100%;
+    padding: .625rem;
+    border-radius: .75rem;
+    background-color:#1E1E1E;
+    color: aliceblue;
+    border-style: none;
+}
+
+/*----------------pagina donde comprar--------------*/
+/*-------------------------------------------------*/
+
+.paginaVistita{
+    display: block;
+    padding: 3.125rem 15.625rem;
+}
+.visitasGuiadas{
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+.guiaMaestroTejedor{
+    display: flex;
+    padding: 1.5625rem;
+}
+.guiasMaestro{
+    padding: 1.5625rem;
 }

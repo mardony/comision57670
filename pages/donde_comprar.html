@@ -14,8 +14,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img class="isotipoHeader" src="../assets/img/isotipo-oncebay-03.png"
-                        alt="11 BAY"></a>
+                <a class="navbar-brand" href="../index.html"><img class="isotipoHeader"
+                        src="../assets/img/isotipo-oncebay-03.png" alt="11 BAY"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -58,25 +58,30 @@
 
 
     <main>
+
         <section>
-            <div>
-                <img src="" alt="">
-                <h1>Telar Oncebay</h1>
-            </div>
-            <div>
-                <div>
-                    <h2>Contactos</h2>
-                    <a href="">Inicio sesión</a>
+            <img class="imgIsotipoCompra" src="../assets/img/isotipo-oncebay-02.png" alt="">
+            <h1 class="titleDondeComprar">Telar Oncebay</h1>
+        </section>
+
+        <section class="gridDondeComprar">
+
+            <div class="contactoCompra">
+                <div class="inicioContacto">
+                    <h2 class="guia guiaContacto">Contactos</h2>
+                    <a class="iniciaSesion">Inicio sesión</a>
                 </div>
+
                 <form action="">
                     <label for="contacto"></label>
-                    <input type="email" name="contacto" id="contacto" placeholder="Correo electeónico">
+                    <input class="datosContacto" type="email" name="contacto" id="contacto" placeholder="Correo electeónico">
                 </form>
             </div>
-            <div>
-                <h2>Entrega</h2>
+
+            <div class="entregaCompra">
+                <h2 class="guia guiaEntrega">Entrega</h2>
                 <form action="">
-                    <select name="" id="">
+                    <select class="datosEntrada" name="" id="">
                         <option value="">Argentina</option>
                         <option value="">Austri</option>
                         <option value="">canada</option>
@@ -87,96 +92,106 @@
                     </select>
                     <div>
                         <label for="nombre"></label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                        <input class="datosEntradaMedio" type="text" name="nombre" id="nombre" placeholder="Nombre">
                         <label for="Apellidos"></label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                        <input class="datosEntradaMedio" type="text" name="Apellido" id="Apellido" placeholder="Apellido">
                     </div>
                     <label for="direccion"></label>
-                    <input type="text" name="direccion" id="direccion" placeholder="Dirección">
+                    <input class="datosEntrada" type="text" name="direccion" id="direccion" placeholder="Dirección">
                     <div>
                         <label for="codigoPostal"></label>
-                        <input type="text" name="codigoPostal" id="codigoPostal" placeholder="Codigo postal">
+                        <input class="datosEntradaMedio"  type="text" name="codigoPostal" id="codigoPostal" placeholder="Codigo postal">
                         <label for="ciudad"></label>
-                        <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad">
+                        <input class="datosEntradaMedio" type="text" name="ciudad" id="ciudad" placeholder="Ciudad">
                     </div>
                     <label for="telefono"></label>
-                    <input type="text" name="telefono" id="telefono" placeholder="Teléfono">
-                    <label for="envioOferta">Envio de ofertas y promociones por WhatsApp</label>
-                    <input type="checkbox" name="envioOferta" id="envioOferta">
+                    <input class="datosEntrada" type="text" name="telefono" id="telefono" placeholder="Teléfono">
+                    <div class="datosEnvioMundo">
+                        <input type="checkbox" name="envioOferta" id="envioOferta">
+                        <label for="envioOferta">Envio de ofertas y promociones por WhatsApp</label>
+                    </div>
                 </form>
             </div>
-            <div>
+
+            <div class="pagoCompra">
                 <div>
-                    <h2>Pago</h2>
+                    <h2 class="guia guiaPago">Pago</h2>
                     <p>Todas las transacciones son seguras y están encriptadas.</p>
                 </div>
-                <div>
-                    <form action="">
-                        <label for="tarjetaCredito">Tarjeta de crétido</label>
-                        <input type="radio" name="tarjetaCredito" id="tarjetaCredito">
-                        <label for="numeroTarjeta"></label>
-                        <input type="number" name="numeroTarjeta" id="numeroTarjeta">
-                        <div>
-                            <label for="fechaVencimiento"></label>
-                            <input type="date" name="fechaVencimiento" id="fechaVencimiento"
-                                placeholder="Codigo postal">
-                            <label for="codigoSeguridad"></label>
-                            <input type="text" name="codigoSeguridad" id="codigoSeguridad"
-                                placeholder="Código de seguridad">
+                <div >
+                    <form action="" class="casillasPago">
+                        <div class="contenedorCard">
+                            <input class="datosPagoSelect" type="radio" name="tarjetaCredito" id="tarjetaCredito">
+                            <label for="tarjetaCredito">Tarjeta de crétido</label>
                         </div>
-                        <label for="nombreTitular"></label>
-                        <input type="text" name="nombreTitular" id="nombreTitular" placeholder="Nombre del titular">
-                        <label for="bancaMovil">Pagar con una banca móvil</label>
-                        <input type="radio" name="bancaMovil" id="ban">
+                        <div class="contenedorFormPago">
+                            <label for="numeroTarjeta"></label>
+                            <input class="datosPago dataTarjeta" type="number" name="numeroTarjeta" id="numeroTarjeta" placeholder="Número de la trajeta">
+                            <div class="fechaPago">
+                                <label for="fechaVencimiento"></label>
+                                <input class="datosPago datosPagoM" type="date" name="fechaVencimiento" id="fechaVencimiento" placeholder="Codigo postal">
+                                <label for="codigoSeguridad"></label>
+                                <input class="datosPago datosPagoM" type="text" name="codigoSeguridad" id="codigoSeguridad" placeholder="Código de seguridad">
+                            </div>
+                            <label for="nombreTitular"></label>
+                            <input class="datosPago" type="text" name="nombreTitular" id="nombreTitular" placeholder="Nombre del titular">
+                            <div>
+                                <input class="datosPagoSelect" type="radio" name="bancaMovil" id="ban">
+                                <label for="bancaMovil">Pagar con una banca móvil</label>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
+
+            <section class="resumenCompra">
+                <section>
+                    <div>
+                        <h2 class="guia guiaPago">Resumen</h2>
+                    </div>
+                    <article class="resumenProductosTelar">
+                        <div>
+                            <img class="listaTellar" src="../assets/img/boemios-guitara-quena.png"
+                                alt="musicos con guitara y quena">
+                        </div>
+                        <div class="datosCompraResumen">
+                            <p>
+                                1 Telar musicos de guitarra y quena
+                                1 x 1.5 metros
+                            </p>
+                            <p>
+                                s/. 640.00
+                            </p>
+                        </div>
+                    </article>
+                </section>
+                <div>
+                    <form class="cuponResumen" action="">
+                        <label for="cupon"></label>
+                        <input class="datoCupon" type="number" name="cupon" id="cupon" placeholder="Código de descuento">
+                        <button class="btnDatoCupon">APLICAR</button>
+                    </form>
+                </div>
+                <section class="resumenMmonto">
+                    <ul>
+                        <li>Sub total</li>
+                        <li>Incluye impuesto</li>
+                        <li>TOTAL</li>
+                    </ul>
+                    <ul>
+                        <li>s/. 640.00</li>
+                        <li>s/. 00.00</li>
+                        <li>s/. 640.00</li>
+                    </ul>
+                </section>
+                <div >
+                    <form action="">
+                        <button class="btnPagarTelar" >Pagara ahora</button>
+                    </form>
+                </div>
+            </section>
         </section>
 
-        <section>
-            <section>
-                <div>
-                    <h2>Resumen</h2>
-                </div>
-                <div>
-                    <div>
-                        <img class="listaTellar" src="../assets/img/boemios-guitara-quena.png"
-                            alt="musicos con guitara y quena">
-                    </div>
-                    <p>
-                        1 Telar musicos de guitarra y quena
-                        1 x 1.5 metros
-                    </p>
-                    <p>
-                        s/. 640.00
-                    </p>
-                </div>
-            </section>
-            <div>
-                <form action="">
-                    <label for="cupon"></label>
-                    <input type="number" name="cupon" id="cupon" placeholder="Código de descuento">
-                    <button>APLICAR</button>
-                </form>
-            </div>
-            <section>
-                <ul>
-                    <li>Sub total</li>
-                    <li>Incluye impuesto</li>
-                    <li>TOTAL</li>
-                </ul>
-                <ul>
-                    <li>s/. 640.00</li>
-                    <li>s/. 00.00</li>
-                    <li>s/. 640.00</li>
-                </ul>
-            </section>
-            <div>
-                <form action="">
-                    <button>Pagara ahora</button>
-                </form>
-            </div>
-        </section>
     </main>
 
     <footer>
@@ -187,10 +202,14 @@
                     <div class="socialNet">
                         <a href=""><img class="icoRedSocial" src="../assets/img/Red-social/Instagram.png"
                                 alt="Instagram"></a>
-                        <a href=""><img class="icoRedSocial" src="../assets/img/Red-social/facebook.png" alt="Facebook"></a>
-                        <a href=""><img class="icoRedSocial" src="../assets/img/Red-social/YouTube.png" alt="YouTube"></a>
-                        <a href=""><img class="icoRedSocial" src="../assets/img/Red-social/twitter.png" alt="Twitter"></a>
-                        <a href=""><img class="icoRedSocial" src="../assets/img/Red-social/LinkedIn.png" alt="LinkedIn"></a>
+                        <a href=""><img class="icoRedSocial" src="../assets/img/Red-social/facebook.png"
+                                alt="Facebook"></a>
+                        <a href=""><img class="icoRedSocial" src="../assets/img/Red-social/YouTube.png"
+                                alt="YouTube"></a>
+                        <a href=""><img class="icoRedSocial" src="../assets/img/Red-social/twitter.png"
+                                alt="Twitter"></a>
+                        <a href=""><img class="icoRedSocial" src="../assets/img/Red-social/LinkedIn.png"
+                                alt="LinkedIn"></a>
                     </div>
                 </div>
                 <div class="infoSection"></div>
