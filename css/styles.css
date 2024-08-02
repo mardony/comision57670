@@ -139,7 +139,7 @@ main {
     grid-template-columns: 1.5fr 4fr;
     grid-template-rows: auto auto auto;
     gap: 2rem;
-    padding: 1rem;
+    padding: 3.125rem;
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
 }
@@ -199,12 +199,18 @@ main {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
+    .gridCulturaTelar {
+        grid-template-columns: 1fr 2fr;
+        column-gap: 0px;
+        padding-top: 0rem;
+    }
+
     .titleHistoriaCultural {
         font-size: 30px;
         margin-top: 1.875rem;
         margin-bottom: 1.875rem;
-        background-color: #F33829;
+
     }
 
     .reseñaCultural {
@@ -212,7 +218,11 @@ main {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
+    .gridCulturaTelar {
+        margin: 50px;
+    }
+
     .imgTelarCultural {
         width: 100%;
         justify-content: center;
@@ -534,59 +544,12 @@ main {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 
-    .gridProductoTelar {
-        margin-top: 6.25rem;
+    .imgIsotipoAgua {
+        width: 50%;
+        height: 15%;
     }
-
-    .detallesProducto1 {
-        padding-left: 1.5625rem;
-        padding-right: 1.5625rem;
-    }
-
-    .detallesProducto2 {
-        padding-left: 1.5625rem;
-        padding-right: 1.5625rem;
-    }
-
-    .detallesProducto3 {
-        padding-left: 1.5625rem;
-        padding-right: 1.5625rem;
-    }
-
-    .significadoProducto1,
-    .significadoProducto2,
-    .significadoProducto3 {
-        padding-left: 3.125rem;
-        padding-right: 1.5625rem;
-        margin-bottom: 1.5625rem;
-    }
-
-    .especicaTelar {
-        font-size: 15px;
-    }
-
-    .textEspecificoTelar {
-        font-size: 11px;
-    }
-
-    .titleProductTelar {
-        font-size: 30px;
-    }
-
-    .listaEspecificaTelar {
-        font-size: 11px;
-    }
-
-    .btnComprarProducto {
-        padding: 10px 30px;
-        font-size: 0.9em;
-    }
-
-}
-
-@media (max-width: 720px) {
 
     .describeTelar1,
     .describeTelar2,
@@ -610,7 +573,12 @@ main {
     .isotipoAgua1,
     .isotipoAgua2,
     .isotipoAgua3 {
+        padding-top: .9375rem;
         background-color: #726E6E;
+    }
+
+    .titleProductTelar {
+        font-size: 2.5rem;
     }
 }
 
@@ -637,7 +605,7 @@ main {
     }
 
     .titleProductTelar {
-        font-size: 1.25rem;
+        font-size: 1.125rem;
     }
 
     .listaEspecificaTelar {
@@ -655,6 +623,28 @@ main {
 
 }
 
+@media (max-width: 400px) {
+    .imgIsotipoAgua {
+        width: 50%;
+        height: 15%;
+    }
+
+    .isotipoAgua1,
+    .isotipoAgua2,
+    .isotipoAgua3 {
+        padding-top: .625rem;
+    }
+
+    .gridProductoTelar {
+        grid-template-columns: 2.5fr 4fr;
+        column-gap: 12px;
+    }
+
+
+}
+
+
+
 /*---------------dónde comprar----------*/
 .listaTellar {
     width: 11.5rem;
@@ -662,7 +652,7 @@ main {
 }
 
 
-/*------------banner pagina telares-----------------*/
+/*------------banner pagina visitanos-----------------*/
 /*--------------------------------------------------*/
 
 .imgIsotipoVisita {
@@ -690,19 +680,8 @@ main {
 }
 
 
-
-/*----------------visitanos-------------*/
-
-.maestroTejedor {
-    width: 26.4375rem;
-    height: 33.5625rem;
-}
-
-.visitasGuiadas {
-    background-color: #0EB9CB;
-}
-
 /*------------footer-------------*/
+/*-------------------------------*/
 
 .icoMedioPago {
     width: 50px;
@@ -725,13 +704,11 @@ footer {
     padding: 1.25rem 0;
 }
 
-.footerContainer {
+.arquitecturaFooter {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    max-width: 1450px;
-    margin: 0 auto;
-    padding: 20px;
+    padding: 1.5625rem;
 }
 
 .isotipoFooter {
@@ -788,7 +765,6 @@ footer {
     justify-content: center;
     flex: 1;
     margin-bottom: 10px;
-
 }
 
 .socialNet a img {
@@ -812,9 +788,46 @@ footer {
     margin-top: 20px;
 }
 
+@media (max-width: 1300px) {
+    .isotipoFooter {
+        width: 12.5rem;
+        height: 4.6875rem;
+    }
+
+    .icoRedSocial {
+        width: 20px;
+        height: 20px;
+    }
+
+    .infoSection ul li {
+        font-size: .75rem;
+    }
+
+    .infoSection h3 {
+        font-size: .9375rem;
+    }
+
+    .footerContainer {
+        padding: 8px;
+    }
+}
+
 @media (max-width: 768px) {
+
+    .icoRedSocial {
+        width: 15px;
+        height: 15px;
+    }
+
+    .arquitecturaFooter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1.5625rem;
+    }
+
     .infoStructure {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -826,8 +839,50 @@ footer {
     .payments {
         margin-bottom: 20px;
     }
+
+    .isotipoFooter {
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+    }
+
+    .icoRedSocial {
+        width: .9375rem;
+        height: .9375rem;
+    }
+
+    .footer-bottom {
+        font-size: .75rem;
+    }
+
 }
 
+@media (max-width: 400px) {
+    .isotipoFooter {
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+    }
+
+    .arquitecturaFooter {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .icoRedSocial {
+        width: .9375rem;
+        height: .9375rem;
+    }
+
+    .infoStructure {
+        align-items: start;
+    }
+
+    .footerLegal {
+        font-size: .75rem;
+    }
+
+}
 
 
 /****Página HOME****/
@@ -1125,119 +1180,89 @@ footer {
     }
 }
 
-@media (max-width:800px) {
-    .textBanner {
-        left: 30%;
-        width: 70%;
-        padding: 1.25rem;
+@media (max-width:768px) {
+    .gridTelares {
+        grid-template-rows: 40px 40px 80px repeat(12, auto);
     }
 
-    .textBannerTitle {
-        font-size: 30px;
-        margin-bottom: 3.75rem;
-    }
-
-    .textBannerFrase {
-        font-size: 0.70em;
-        padding-right: 2.8125rem;
-    }
-}
-
-@media (max-width:700px) {
     .textBanner {
         left: 25%;
         width: 75%;
     }
 
+    .textOrigen,
+    .titleMaestro,
+    .titleSpan {
+        font-size: 40px;
+    }
+
     .textBannerTitle {
-        font-size: 35px;
+        font-size: 2.8125rem;
+        margin-left: 2.5rem;
+        margin-right: .9375rem;
         margin-bottom: 1.5625rem;
     }
 
     .textBannerFrase {
         font-size: 0.70em;
-        padding-right: 1.25rem;
+        padding-right: 3.125rem;
+        margin-left: 2.5rem;
         margin-bottom: 25px;
     }
-}
 
-@media (max-width:600px) {
-    .textBannerTitle {
-        font-size: 30px;
-        margin-bottom: 35px;
+    .btnPagina {
+        margin-left: 2.5rem;
+        padding: 8px 30px;
+        font-size: 0.80em;
     }
 
-    .textBannerFrase {
-        font-size: 0.50em;
-        padding-right: 1.25rem;
-        margin-bottom: 15px;
-    }
-}
-
-@media (max-width:550px) {
-    .textBannerTitle {
-        font-size: 25px;
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width:500px) {
-    .textBannerTitle {
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
-}
-
-@media (max-width:450px) {
-    .textBanner {
-        top: 0px;
-        left: 20%;
-        width: 85%;
-    }
-
-    .textBannerTitle {
-        font-size: 32px;
-        margin-bottom: 10px;
-    }
-
-    .textBannerFrase {
-        font-size: 0.50em;
-        margin-bottom: 30px;
+    .gridTextHistory1,
+    .gridTextHistory2 {
+        font-size: 15px;
     }
 }
 
 @media (max-width:400px) {
+
+    .textOrigen,
+    .titleMaestro,
+    .titleSpan {
+        font-size: 25px;
+    }
+
     .textBannerTitle {
         font-size: 20px;
+        margin-left: .9375rem;
         margin-bottom: 5px;
     }
 
     .textBannerFrase {
         font-size: 0.50em;
         margin-bottom: 10px;
+        padding: 0;
+        margin-left: .9375rem;
+    }
+
+    .gridTelares {
+        grid-template-rows: 30px 30px 70px repeat(12, auto);
+    }
+
+    .gridTextHistory1,
+    .gridTextHistory2 {
+        font-size: 10px;
     }
 }
 
-@media (max-width:350px) {
-    .textBannerTitle {
-        font-size: 18px;
-        margin-bottom: 5px;
-    }
-
-    .textBannerFrase {
-        font-size: 0.50em;
-        margin-bottom: 10px;
-    }
-}
 
 /*----------------pagina donde comprar--------------*/
 /*-------------------------------------------------*/
-.imgIsotipoCompra{
+.imgIsotipoCompra {
     width: 20%;
-    margin-top: 6.25rem ;
+    margin-top: 6.25rem;
     margin-left: 6.25rem;
 }
-.titleDondeComprar{
+
+.titleDondeComprar {
     margin-left: 6.25rem;
     font-size: 40px;
 }
@@ -1402,26 +1427,166 @@ footer {
     width: 100%;
     padding: .625rem;
     border-radius: .75rem;
-    background-color:#1E1E1E;
+    background-color: #1E1E1E;
     color: aliceblue;
     border-style: none;
 }
 
-/*----------------pagina donde comprar--------------*/
-/*-------------------------------------------------*/
+@media (max-width:768px) {
+    .imgIsotipoCompra {
+        width: 30%;
+        margin-top: 3.125rem;
+        margin-left: 6.25rem;
+    }
 
-.paginaVistita{
+    .gridDondeComprar {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+
+    .resumenCompra {
+        grid-area: 1 / 1 / 2 / 2;
+        display: block;
+    }
+
+    .contactoCompra {
+        grid-area: 2 / 1 / 3 /2;
+        display: block;
+
+    }
+
+    .entregaCompra {
+        grid-area: 3 / 1 / 4 /2;
+        display: block;
+    }
+
+    .pagoCompra {
+        grid-area: 4 / 1 / 5/ 2;
+        display: block;
+    }
+
+}
+
+@media (max-width:400px) {
+    .imgIsotipoCompra {
+        width: 50%;
+        margin-top: 3.125rem;
+        margin-left: 6.25rem;
+    }
+
+    .titleDondeComprar {
+        font-size: 25px;
+    }
+
+    .fechaPago {
+        display: block;
+    }
+
+    .datosPagoM {
+        width: 90%;
+    }
+    .datosEntradaMedio{
+        width: 98%;
+    }
+    .cuponResumen{
+        display: block;
+    }
+    .datoCupon{
+        width: 98%;
+        margin-bottom: 1.5625rem;
+    }
+    .btnDatoCupon{
+        width: 98%;
+    }
+
+    .resumenProductosTelar{
+        display: block;
+    }
+
+}
+
+/*----------------pagina Visitanos--------------*/
+/*-------------------------------------------------*/
+.maestroTejedor {
+    width: 400px;
+    height: 500;
+}
+
+.visitasGuiadas {
+    background-color: #0EB9CB;
+}
+
+.paginaVistita {
     display: block;
     padding: 3.125rem 15.625rem;
 }
-.visitasGuiadas{
+
+.visitasGuiadas {
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
 }
-.guiaMaestroTejedor{
+
+.guiaMaestroTejedor {
     display: flex;
     padding: 1.5625rem;
 }
-.guiasMaestro{
+
+.guiasMaestro {
     padding: 1.5625rem;
+}
+
+@media (max-width:768px) {
+    .maestroTejedor {
+        width: 250px;
+        height: 350px;
+    }
+
+    .paginaBienvenida {
+        font-size: 50px;
+    }
+
+    .paginaVistita {
+        padding: 3.125rem 4.375rem;
+    }
+
+    .opcionesGuiadas {
+        font-size: 2.1875rem;
+    }
+
+    .guiasMaestro {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:400px) {
+    .maestroTejedor {
+        width: 100px;
+        height: 200px;
+    }
+
+    .paginaBienvenida {
+        font-size: 30px;
+    }
+
+    .paginaVistita {
+        padding: 3.125rem 40px;
+    }
+
+    .opcionesGuiadas {
+        font-size: 1.5625rem;
+    }
+
+    .maestroTejedor {
+        width: 200px;
+        height: 300px;
+    }
+
+    .guiaMaestroTejedor {
+        display: block;
+        padding: .625rem;
+    }
+
+    .guiasMaestro {
+        font-size: .75rem;
+    }
 }

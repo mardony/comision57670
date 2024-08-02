@@ -2,13 +2,18 @@
 
 Bienvenido al repositorio de **Telar Oncebay**, una web dedicada a la rica tradición de los telares en Ayacucho, Perú. Este proyecto busca compartir el legado cultural y la técnica artesanal de los tejedores ayacuchanos, promoviendo la apreciación y el comercio justo de estos productos únicos.
 
+## Pantallas usadas para responsive
+- iphone 12 pro (390 x 844)
+- ipad (768 x 1024)
+- macBook Pro (1440 x 900)
+
 ## Contenidos
 
 La web está dividida en cinco secciones principales:
 
 1. **Origen**
-2. **Cultura del Telar** (responsive)
-3. **Telares** (responsive)
+2. **Cultura del Telar**
+3. **Telares**
 4. **Dónde Comprar**
 5. **Visítanos**
 
