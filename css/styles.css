@@ -44,6 +44,12 @@ main {
     padding: .3125rem;
 }
 
+.navColor a:hover{
+    color: #F33829;
+    text-shadow:#FFF;
+}
+
+
 /*  ---------------banner------------------------- */
 .bannerPagina {
     position: relative;
@@ -1589,4 +1595,35 @@ footer {
     .guiasMaestro {
         font-size: .75rem;
     }
+}
+
+
+/*pseudoclase*/
+.socialNet:hover {
+    filter: drop-shadow(5px 5px 5px yellow);
+}
+
+input:focus{
+    background-color: #969696;
+}
+
+.btnDatoCupon:hover,
+.btnPagarTelar:active{
+    background-color: #027381;
+}
+.checkEnvioMundo:checked {
+    background-color: #F33829;
+}
+.reseñaCultural p::selection{
+    background-color:#1E1E1E;
+    color: white;
+}
+/*pseudoElemento*/
+h1:hover::before{
+    content: "Cultura ";
+    color: #0EB9CB;
+}
+input:focus::placeholder {
+    text-align: center;
+    color:white;
 }
