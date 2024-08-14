@@ -1,0 +1,91 @@
+@import '../utilities/mixins'; // Importa el archivo que contiene los mixins
+
+.icoMedioPago {
+    @include icon-size(50px, 1.875rem);
+}
+
+.icoRedSocial {
+    @include icon-size(25px, 25px);
+}
+
+.icoCopyrigth {
+    @include icon-size(1.5rem, 1.5rem);
+}
+
+footer {
+    background-color: $color_10;
+    color: $color_3;
+    @include padding(1.25rem 0);
+}
+
+.arquitecturaFooter {
+    @include flexbox(row, center);
+    @include padding(1.5625rem);
+}
+
+.isotipoFooter {
+    @include icon-size(18.75rem, 5.625rem);
+}
+
+.infoStructure {
+    @include flexbox(row, space-around, flex-start, wrap);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.infoSection {
+    flex: 1;
+    @include margin(10px);
+    min-width: 200px;
+
+    h3 {
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 5px;
+
+            a {
+                color: $color_4;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.socialNetPayments {
+    @include flexbox(row, space-between, center, wrap);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.socialNet {
+    @include flexbox(row, center);
+    flex: 1;
+    margin-bottom: 10px;
+
+    a {
+        img {
+            margin: 0 10px;
+        }
+    }
+}
+
+.payments {
+    @include flexbox(row, center);
+    flex: 1;
+
+    img {
+        margin: .3125rem;
+        margin-bottom: 1.25rem;
+    }
+}
+
+.footerLegal {
+    text-align: center;
+    margin-top: 20px;
+}

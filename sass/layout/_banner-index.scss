@@ -1,0 +1,89 @@
+.bannerPagina {
+    position: relative;
+    margin-bottom: 4.6875rem;
+}
+
+.textBanner {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    width: 60%;
+    padding: 1.25rem;
+}
+
+.textBannerTitle {
+    font-size: 6.875rem;
+    padding-right: 6.25rem;
+    margin-bottom: 4.375rem;
+    color: $color_1;
+}
+
+.textBannerFrase {
+    padding-right: 6.25rem;
+    margin-bottom: 2.5rem;
+    color: $color_4;
+}
+
+.btnPagina {
+    padding: .9375rem 3.125rem;
+    font-size: 1em;
+    color: $color_4;
+    background-color: $color_1;
+    border: 0px ;
+    border-radius: .3125rem;
+    transition: background-color 0.3s;
+    &:hover {
+        background-color: $color_6;
+    }
+}
+
+/////////////////////////////////////////////////////////
+/// banner cultura del telar
+.bannerPaginaCulturaTelar {
+    background-color: $color_1;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bannerCulturaTelar {
+    @include full-width-height;
+    position: relative;
+}
+
+.imgBannerCulturaTelar {
+    @include full-width-height;
+    object-fit: cover;
+}
+
+.textCulturaTelar {
+    @include center-absolute;
+    color: $color_1;
+    font-size: 4.5rem;
+    text-shadow: $text-shadow-banner;
+    @include responsive-font-size(2.5rem, 1.5rem);
+}
+
+///////////////////////////////////////////////////
+/// banner telares
+.bodyPaginaTelaresProductos {
+    background-color: $color_9;
+}
+
+.textTelar {
+    @include center-absolute;
+    color: $color_3;
+    font-size: 7.5rem;
+    text-shadow: $text-shadow-banner;
+    @include responsive-font-size(3.75rem, 2.1875rem);
+}
+
+/////////////////////////////////////////////////
+/// banner Dónde comprar
+// Variables
+.imgIsotipoVisita {
+    @include center-absolute;
+    width: 37.5rem;
+    height: 15.625rem;
+    @include responsive-size(25rem, 9.375rem, 18.75rem, 5.625rem);
+}

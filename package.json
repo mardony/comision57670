@@ -11,7 +11,7 @@
     "build-css": "node-sass --include-path scss ./sass/style.scss ./css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Mardonio Barzola",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^9.0.0",
