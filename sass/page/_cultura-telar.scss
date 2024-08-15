@@ -1,0 +1,146 @@
+.imgTelarCultural {
+    width: 110%;
+}
+
+.gridCulturaTelar {
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    grid-template-rows: auto auto auto;
+    gap: 3rem;
+    padding: 3.125rem 9.375rem;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+
+.historyCultural {
+    padding-left: 3.125rem;
+}
+
+.imgTelarCulto1 {
+    @include grid-area-telar(1, 1, 2, 2);
+    @include imgTelarCultural();
+}
+
+.imgTelarCulto2 {
+    @include grid-area-telar(2, 1, 3, 2);
+    @include imgTelarCultural();
+}
+
+.imgTelarCulto3 {
+    @include grid-area-telar(3, 1, 4, 2);
+    @include imgTelarCultural();
+}
+
+.historyCultural1 {
+    @include grid-area-telar(1, 2, 2, 3);
+}
+
+.historyCultural2 {
+    @include grid-area-telar(2, 2, 3, 3);
+}
+
+.historyCultural3 {
+    @include grid-area-telar(3, 2, 4, 3);
+}
+
+.titleHistoriaCultural {
+    color: $color_5;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    font-size: 3.125rem;
+    padding-right: 2.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .gridCulturaTelar {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 0px;
+        padding: 2.5rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    .imgTelarCultural {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .titleHistoriaCultural {
+        font-size: 1.875rem;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .reseñaCultural {
+        font-size: .75rem;
+    }
+
+    .historyCultural {
+        padding-left: 1.5625rem;
+        margin-bottom: 1.5625rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .imgTelarCultural {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gridCulturaTelar {
+        display: none;
+    }
+
+    .gridCulturaTelar {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        gap: 1rem;
+        padding: 1.5625rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .imgTelarCulto1 {
+        grid-area: 1 / 1 / 2 / 2;
+        display: flex;
+    }
+
+    .historyCultural1 {
+        display: block;
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .imgTelarCulto2 {
+        @include grid-area-telar(3, 1, 4, 2);
+        display: flex;
+    }
+
+    .historyCultural2 {
+        display: block;
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .imgTelarCulto3 {
+        grid-area: 5 / 1 / 6 / 2;
+        display: flex;
+    }
+
+    .historyCultural3 {
+        display: block;
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+    .titleHistoriaCultural {
+        font-size: 1.5625rem;
+    }
+
+    .reseñaCultural {
+        font-size: .75rem;
+    }
+}
