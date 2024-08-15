@@ -1,1 +1,199 @@
+.bannerHome {
+    width: 100%;
+}
+.isologoBody {
+    @include formato-img-origen(60%,80%)
+}
 
+.telarRomboSi {
+    @include formato-img-origen(100%, 100%)
+}
+
+.telarRomboId,
+.telarRomboSd {
+    @include formato-img-origen(80%, 100%)
+}
+
+.telarRomboMi3,
+.telarRomboMi1 {
+    @include formato-img-origen(40%, 100%)
+}
+
+.telarRomboMi2 {
+    @include formato-img-origen(90%, 70%)
+}
+
+
+.telarRomboMd {
+    @include formato-img-origen(70%, 100%)
+}
+
+.telarRomboIi {
+    @include formato-img-origen(94.5%, 100%)
+}
+
+.gridImagen1 {
+    @include grid-area-telar(1, 1, 4, 5);
+    @include contenedor-img-tapiz(flex, center, center);
+}
+
+.gridImagen2 {
+    @include grid-area-telar(1,5,3,8);
+    @include contenedor-img-tapiz(flex,center,center);
+}
+
+.gridImagen3 {
+    @include grid-area-telar(3, 5, 4, 8);
+    @include contenedor-img-tapiz(flex, right, center);
+}
+
+.gridImagen4 {
+    @include grid-area-telar(4, 7, 14, 8);
+    @include contenedor-img-tapiz(flex, right, center);
+}
+
+.gridImagen5 {
+    @include grid-area-telar(14, 6, 16, 8);
+    @include contenedor-img-tapiz(flex, right, center);
+}
+
+.gridImagen6 {
+    @include grid-area-telar(14, 1, 15, 6);
+    @include contenedor-img-tapiz(flex, right, center);
+}
+
+.gridImagen7 {
+    @include grid-area-telar(12, 1, 14, 3);
+    @include contenedor-img-tapiz(flex, center, center);
+}
+
+.gridImagen8 {
+    @include grid-area-telar(7, 1, 12, 3);
+    @include contenedor-img-tapiz(flex, center, center);
+}
+
+.gridImagen9 {
+    @include grid-area-telar(4, 1, 7, 3);
+    @include contenedor-img-tapiz(flex, center, center);
+}
+
+.gridTitle1 {
+    @include grid-area-telar(4, 3, 10, 4);
+    display: flex;
+    align-items: start;
+    padding-top: 50px;
+}
+
+.textOrigen {
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-family: "Poppins", sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    transform: rotate(180deg);
+    color: $color_8;
+}
+
+.gridTextHistory1 {
+    @include grid-area-telar(4, 4, 10, 7);
+    padding-top: 3.125rem;
+    padding-right: 3.75rem;
+}
+
+.gridTitle2 {
+    @include grid-area-telar(10, 3, 11, 7);
+    @include contenedor-img-tapiz(flex,start,center);
+    h2{
+        color: $color_1;
+    }
+}
+
+.titleSpan {
+    font-size: 5rem;
+    color: $color_8;
+}
+
+.titleMaestro {
+    font-size: 5rem;
+    padding: 1.875rem;
+}
+
+.gridTextHistory2 {
+    @include grid-area-telar(11, 4, 14, 7);
+    padding-right: 3.75rem;
+    margin-bottom: 3.125rem;
+}
+
+@media (max-width:768px) {
+    .gridTelares {
+        grid-template-rows: 40px 40px 80px repeat(12, auto);
+    }
+
+    .textBanner {
+        left: 25%;
+        width: 75%;
+    }
+
+    .textOrigen,
+    .titleMaestro,
+    .titleSpan {
+        font-size: 40px;
+    }
+
+    .textBannerTitle {
+        font-size: 2.8125rem;
+        margin-left: 2.5rem;
+        margin-right: .9375rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    .textBannerFrase {
+        font-size: 0.70em;
+        padding-right: 3.125rem;
+        margin-left: 2.5rem;
+        margin-bottom: 25px;
+    }
+
+    .btnPagina {
+        margin-left: 2.5rem;
+        padding: 8px 30px;
+        font-size: 0.80em;
+    }
+
+    .gridTextHistory1,
+    .gridTextHistory2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .textOrigen,
+    .titleMaestro,
+    .titleSpan {
+        font-size: 25px;
+    }
+
+    .textBannerTitle {
+        font-size: 20px;
+        margin-left: .9375rem;
+        margin-bottom: 5px;
+    }
+
+    .textBannerFrase {
+        font-size: 0.50em;
+        margin-bottom: 10px;
+        padding: 0;
+        margin-left: .9375rem;
+    }
+
+    .gridTelares {
+        grid-template-rows: none;
+        grid-template-rows: 20px 20px 60px repeat(12, auto);
+    }
+
+    .gridTextHistory1,
+    .gridTextHistory2 {
+        font-size: 10px;
+    }
+}

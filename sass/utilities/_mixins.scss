@@ -186,104 +186,23 @@
     margin-top: 20px;
 }
 
-@mixin responsive-telares($width, $height) {
-    @media (max-width: 768px) {
-        .imgIsotipoAgua {
-            width: $width;
-            height: $height;
-        }
-
-        .describeTelar1,
-        .describeTelar2,
-        .describeTelar3 {
-            display: none;
-        }
-
-        .describeTelar11,
-        .describeTelar12,
-        .describeTelar13 {
-            display: block;
-        }
-
-        .btnComprarProducto {
-            padding: 9px 30px;
-            font-size: 0.9em;
-            border-radius: .625rem;
-            margin-top: 10px;
-        }
-
-        .isotipoAgua1,
-        .isotipoAgua2,
-        .isotipoAgua3 {
-            padding-top: .9375rem;
-            background-color: #726E6E;
-        }
-
-        .titleProductTelar {
-            font-size: 2.5rem;
-        }
-    }
-
-    @media (max-width: 400px) {
-        .gridProductoTelar {
-            margin-top: 3.125rem;
-        }
-
-        .significadoProducto1,
-        .significadoProducto2,
-        .significadoProducto3 {
-            padding-left: 1.5625rem;
-            padding-right: 1.5625rem;
-            margin-bottom: 1.5625rem;
-        }
-
-        .especicaTelar {
-            font-size: 13px;
-        }
-
-        .textEspecificoTelar {
-            font-size: 9px;
-        }
-
-        .titleProductTelar {
-            font-size: 1.125rem;
-        }
-
-        .listaEspecificaTelar {
-            font-size: 9px;
-        }
-
-        .btnComprarProducto {
-            padding: 7px 30px;
-            font-size: 0.8em;
-        }
-
-        .leerMasTelares {
-            font-size: .875rem;
-        }
-
-        .imgIsotipoAgua {
-            width: 70%;
-            height: 20%;
-        }
-
-        .isotipoAgua1,
-        .isotipoAgua2,
-        .isotipoAgua3 {
-            padding-top: .625rem;
-        }
-
-        .gridProductoTelar {
-            grid-template-columns: 2.5fr 4fr;
-            column-gap: 12px;
-        }
-    }
-}
-
 //////////////////////////////////////////////
 /// cultura telar
 @mixin imgTelarCultural {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/////////////////////////////////////////////////////
+/// Home Origen
+@mixin formato-img-origen($width-img, $height-img){
+    width: $width-img;
+    height: $height-img;
+}
+
+@mixin contenedor-img-tapiz($display-tapiz,$justify-tapiz, $aligh-tapiz){
+    display: $display-tapiz;
+    justify-content: $justify-tapiz;
+    align-items: $aligh-tapiz;
 }

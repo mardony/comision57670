@@ -107,13 +107,13 @@
     }
 
     .imgTelarCulto1 {
-        grid-area: 1 / 1 / 2 / 2;
+        @include grid-area-telar(1 , 1, 2, 2);
         display: flex;
     }
 
     .historyCultural1 {
         display: block;
-        grid-area: 2 / 1 / 3 / 2;
+        @include grid-area-telar(2, 1, 3, 2);
     }
 
     .imgTelarCulto2 {
@@ -123,17 +123,17 @@
 
     .historyCultural2 {
         display: block;
-        grid-area: 4 / 1 / 5 / 2;
+        @include grid-area-telar(4, 1, 5, 2);
     }
 
     .imgTelarCulto3 {
-        grid-area: 5 / 1 / 6 / 2;
+        @include grid-area-telar(5, 1, 6, 2);
         display: flex;
     }
 
     .historyCultural3 {
         display: block;
-        grid-area: 6 / 1 / 7 / 2;
+        @include grid-area-telar(6, 1, 7, 2);
     }
 
     .titleHistoriaCultural {

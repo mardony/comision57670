@@ -28,19 +28,16 @@
 .isotipoAgua1 {
     @include grid-area-telar(2, 1, 4, 3);
     @include isotipoAgua();
-    @include responsive-telares(50%, 15%)
 }
 
 .isotipoAgua2 {
     @include grid-area-telar(5, 1, 7, 3);
     @include isotipoAgua();
-    @include responsive-telares(50%, 15%)
 }
 
 .isotipoAgua3 {
     @include grid-area-telar(8, 1, 10, 3);
     @include isotipoAgua();
-    @include responsive-telares(50%, 15%);
 }
 
 .detallesProducto1 {
@@ -71,4 +68,96 @@
 .significadoProducto3 {
     @include grid-area-telar(9, 1, 10, 3);
     @include significadoProducto();
+}
+
+@media (max-width: 768px) {
+    .imgIsotipoAgua {
+        width: 50%;
+        height: 15%;
+    }
+
+    .describeTelar1,
+    .describeTelar2,
+    .describeTelar3 {
+        display: none;
+    }
+
+    .describeTelar11,
+    .describeTelar12,
+    .describeTelar13 {
+        display: block;
+    }
+
+    .btnComprarProducto {
+        padding: 9px 30px;
+        font-size: 0.9em;
+        border-radius: .625rem;
+        margin-top: 10px;
+    }
+
+    .isotipoAgua1,
+    .isotipoAgua2,
+    .isotipoAgua3 {
+        padding-top: .9375rem;
+        background-color: $color_8;
+    }
+
+    .titleProductTelar {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .gridProductoTelar {
+        margin-top: 3.125rem;
+    }
+
+    .significadoProducto1,
+    .significadoProducto2,
+    .significadoProducto3 {
+        padding-left: 1.5625rem;
+        padding-right: 1.5625rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    .especicaTelar {
+        font-size: 13px;
+    }
+
+    .textEspecificoTelar {
+        font-size: 9px;
+    }
+
+    .titleProductTelar {
+        font-size: 1.125rem;
+    }
+
+    .listaEspecificaTelar {
+        font-size: 9px;
+    }
+
+    .btnComprarProducto {
+        padding: 7px 30px;
+        font-size: 0.8em;
+    }
+
+    .leerMasTelares {
+        font-size: .875rem;
+    }
+
+    .imgIsotipoAgua {
+        width: 70%;
+        height: 20%;
+    }
+
+    .isotipoAgua1,
+    .isotipoAgua2,
+    .isotipoAgua3 {
+        padding-top: .625rem;
+    }
+
+    .gridProductoTelar {
+        grid-template-columns: 2.5fr 4fr;
+        column-gap: 12px;
+    }
 }

@@ -9317,12 +9317,12 @@ h1, .h1, h2, .h2 {
 
 .textBannerTitle {
   font-size: 6.875rem;
-  padding-right: 6.25rem;
+  padding-right: 4.0625rem;
   margin-bottom: 4.375rem;
   color: #F33829; }
 
 .textBannerFrase {
-  padding-right: 6.25rem;
+  padding-right: 4.0625rem;
   margin-bottom: 2.5rem;
   color: #FFFFFF; }
 
@@ -9770,62 +9770,6 @@ h1, .h1, h2, .h2 {
   background-color: #333333;
   justify-content: end;
   padding: 3.125rem; }
-  @media (max-width: 768px) {
-    .isotipoAgua1 .imgIsotipoAgua {
-      width: 50%;
-      height: 15%; }
-    .isotipoAgua1 .describeTelar1,
-    .isotipoAgua1 .describeTelar2,
-    .isotipoAgua1 .describeTelar3 {
-      display: none; }
-    .isotipoAgua1 .describeTelar11,
-    .isotipoAgua1 .describeTelar12,
-    .isotipoAgua1 .describeTelar13 {
-      display: block; }
-    .isotipoAgua1 .btnComprarProducto {
-      padding: 9px 30px;
-      font-size: 0.9em;
-      border-radius: .625rem;
-      margin-top: 10px; }
-    .isotipoAgua1 .isotipoAgua1,
-    .isotipoAgua1 .isotipoAgua2,
-    .isotipoAgua1 .isotipoAgua3 {
-      padding-top: .9375rem;
-      background-color: #726E6E; }
-    .isotipoAgua1 .titleProductTelar {
-      font-size: 2.5rem; } }
-  @media (max-width: 400px) {
-    .isotipoAgua1 .gridProductoTelar {
-      margin-top: 3.125rem; }
-    .isotipoAgua1 .significadoProducto1,
-    .isotipoAgua1 .significadoProducto2,
-    .isotipoAgua1 .significadoProducto3 {
-      padding-left: 1.5625rem;
-      padding-right: 1.5625rem;
-      margin-bottom: 1.5625rem; }
-    .isotipoAgua1 .especicaTelar {
-      font-size: 13px; }
-    .isotipoAgua1 .textEspecificoTelar {
-      font-size: 9px; }
-    .isotipoAgua1 .titleProductTelar {
-      font-size: 1.125rem; }
-    .isotipoAgua1 .listaEspecificaTelar {
-      font-size: 9px; }
-    .isotipoAgua1 .btnComprarProducto {
-      padding: 7px 30px;
-      font-size: 0.8em; }
-    .isotipoAgua1 .leerMasTelares {
-      font-size: .875rem; }
-    .isotipoAgua1 .imgIsotipoAgua {
-      width: 70%;
-      height: 20%; }
-    .isotipoAgua1 .isotipoAgua1,
-    .isotipoAgua1 .isotipoAgua2,
-    .isotipoAgua1 .isotipoAgua3 {
-      padding-top: .625rem; }
-    .isotipoAgua1 .gridProductoTelar {
-      grid-template-columns: 2.5fr 4fr;
-      column-gap: 12px; } }
 
 .isotipoAgua2 {
   grid-area: 5 / 1 / 7 / 3;
@@ -9833,62 +9777,6 @@ h1, .h1, h2, .h2 {
   background-color: #333333;
   justify-content: end;
   padding: 3.125rem; }
-  @media (max-width: 768px) {
-    .isotipoAgua2 .imgIsotipoAgua {
-      width: 50%;
-      height: 15%; }
-    .isotipoAgua2 .describeTelar1,
-    .isotipoAgua2 .describeTelar2,
-    .isotipoAgua2 .describeTelar3 {
-      display: none; }
-    .isotipoAgua2 .describeTelar11,
-    .isotipoAgua2 .describeTelar12,
-    .isotipoAgua2 .describeTelar13 {
-      display: block; }
-    .isotipoAgua2 .btnComprarProducto {
-      padding: 9px 30px;
-      font-size: 0.9em;
-      border-radius: .625rem;
-      margin-top: 10px; }
-    .isotipoAgua2 .isotipoAgua1,
-    .isotipoAgua2 .isotipoAgua2,
-    .isotipoAgua2 .isotipoAgua3 {
-      padding-top: .9375rem;
-      background-color: #726E6E; }
-    .isotipoAgua2 .titleProductTelar {
-      font-size: 2.5rem; } }
-  @media (max-width: 400px) {
-    .isotipoAgua2 .gridProductoTelar {
-      margin-top: 3.125rem; }
-    .isotipoAgua2 .significadoProducto1,
-    .isotipoAgua2 .significadoProducto2,
-    .isotipoAgua2 .significadoProducto3 {
-      padding-left: 1.5625rem;
-      padding-right: 1.5625rem;
-      margin-bottom: 1.5625rem; }
-    .isotipoAgua2 .especicaTelar {
-      font-size: 13px; }
-    .isotipoAgua2 .textEspecificoTelar {
-      font-size: 9px; }
-    .isotipoAgua2 .titleProductTelar {
-      font-size: 1.125rem; }
-    .isotipoAgua2 .listaEspecificaTelar {
-      font-size: 9px; }
-    .isotipoAgua2 .btnComprarProducto {
-      padding: 7px 30px;
-      font-size: 0.8em; }
-    .isotipoAgua2 .leerMasTelares {
-      font-size: .875rem; }
-    .isotipoAgua2 .imgIsotipoAgua {
-      width: 70%;
-      height: 20%; }
-    .isotipoAgua2 .isotipoAgua1,
-    .isotipoAgua2 .isotipoAgua2,
-    .isotipoAgua2 .isotipoAgua3 {
-      padding-top: .625rem; }
-    .isotipoAgua2 .gridProductoTelar {
-      grid-template-columns: 2.5fr 4fr;
-      column-gap: 12px; } }
 
 .isotipoAgua3 {
   grid-area: 8 / 1 / 10 / 3;
@@ -9896,62 +9784,6 @@ h1, .h1, h2, .h2 {
   background-color: #333333;
   justify-content: end;
   padding: 3.125rem; }
-  @media (max-width: 768px) {
-    .isotipoAgua3 .imgIsotipoAgua {
-      width: 50%;
-      height: 15%; }
-    .isotipoAgua3 .describeTelar1,
-    .isotipoAgua3 .describeTelar2,
-    .isotipoAgua3 .describeTelar3 {
-      display: none; }
-    .isotipoAgua3 .describeTelar11,
-    .isotipoAgua3 .describeTelar12,
-    .isotipoAgua3 .describeTelar13 {
-      display: block; }
-    .isotipoAgua3 .btnComprarProducto {
-      padding: 9px 30px;
-      font-size: 0.9em;
-      border-radius: .625rem;
-      margin-top: 10px; }
-    .isotipoAgua3 .isotipoAgua1,
-    .isotipoAgua3 .isotipoAgua2,
-    .isotipoAgua3 .isotipoAgua3 {
-      padding-top: .9375rem;
-      background-color: #726E6E; }
-    .isotipoAgua3 .titleProductTelar {
-      font-size: 2.5rem; } }
-  @media (max-width: 400px) {
-    .isotipoAgua3 .gridProductoTelar {
-      margin-top: 3.125rem; }
-    .isotipoAgua3 .significadoProducto1,
-    .isotipoAgua3 .significadoProducto2,
-    .isotipoAgua3 .significadoProducto3 {
-      padding-left: 1.5625rem;
-      padding-right: 1.5625rem;
-      margin-bottom: 1.5625rem; }
-    .isotipoAgua3 .especicaTelar {
-      font-size: 13px; }
-    .isotipoAgua3 .textEspecificoTelar {
-      font-size: 9px; }
-    .isotipoAgua3 .titleProductTelar {
-      font-size: 1.125rem; }
-    .isotipoAgua3 .listaEspecificaTelar {
-      font-size: 9px; }
-    .isotipoAgua3 .btnComprarProducto {
-      padding: 7px 30px;
-      font-size: 0.8em; }
-    .isotipoAgua3 .leerMasTelares {
-      font-size: .875rem; }
-    .isotipoAgua3 .imgIsotipoAgua {
-      width: 70%;
-      height: 20%; }
-    .isotipoAgua3 .isotipoAgua1,
-    .isotipoAgua3 .isotipoAgua2,
-    .isotipoAgua3 .isotipoAgua3 {
-      padding-top: .625rem; }
-    .isotipoAgua3 .gridProductoTelar {
-      grid-template-columns: 2.5fr 4fr;
-      column-gap: 12px; } }
 
 .detallesProducto1 {
   grid-area: 1 / 2 / 3 / 3;
@@ -10007,6 +9839,241 @@ h1, .h1, h2, .h2 {
   color: #D9D9D9;
   margin-bottom: 3.125rem; }
 
+@media (max-width: 768px) {
+  .imgIsotipoAgua {
+    width: 50%;
+    height: 15%; }
+  .describeTelar1,
+  .describeTelar2,
+  .describeTelar3 {
+    display: none; }
+  .describeTelar11,
+  .describeTelar12,
+  .describeTelar13 {
+    display: block; }
+  .btnComprarProducto {
+    padding: 9px 30px;
+    font-size: 0.9em;
+    border-radius: .625rem;
+    margin-top: 10px; }
+  .isotipoAgua1,
+  .isotipoAgua2,
+  .isotipoAgua3 {
+    padding-top: .9375rem;
+    background-color: #726E6E; }
+  .titleProductTelar {
+    font-size: 2.5rem; } }
+
+@media (max-width: 400px) {
+  .gridProductoTelar {
+    margin-top: 3.125rem; }
+  .significadoProducto1,
+  .significadoProducto2,
+  .significadoProducto3 {
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+    margin-bottom: 1.5625rem; }
+  .especicaTelar {
+    font-size: 13px; }
+  .textEspecificoTelar {
+    font-size: 9px; }
+  .titleProductTelar {
+    font-size: 1.125rem; }
+  .listaEspecificaTelar {
+    font-size: 9px; }
+  .btnComprarProducto {
+    padding: 7px 30px;
+    font-size: 0.8em; }
+  .leerMasTelares {
+    font-size: .875rem; }
+  .imgIsotipoAgua {
+    width: 70%;
+    height: 20%; }
+  .isotipoAgua1,
+  .isotipoAgua2,
+  .isotipoAgua3 {
+    padding-top: .625rem; }
+  .gridProductoTelar {
+    grid-template-columns: 2.5fr 4fr;
+    column-gap: 12px; } }
+
+.bannerHome {
+  width: 100%; }
+
+.isologoBody {
+  width: 60%;
+  height: 80%; }
+
+.telarRomboSi {
+  width: 100%;
+  height: 100%; }
+
+.telarRomboId,
+.telarRomboSd {
+  width: 80%;
+  height: 100%; }
+
+.telarRomboMi3,
+.telarRomboMi1 {
+  width: 40%;
+  height: 100%; }
+
+.telarRomboMi2 {
+  width: 90%;
+  height: 70%; }
+
+.telarRomboMd {
+  width: 70%;
+  height: 100%; }
+
+.telarRomboIi {
+  width: 94.5%;
+  height: 100%; }
+
+.gridImagen1 {
+  grid-area: 1 / 1 / 4 / 5;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.gridImagen2 {
+  grid-area: 1 / 5 / 3 / 8;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.gridImagen3 {
+  grid-area: 3 / 5 / 4 / 8;
+  display: flex;
+  justify-content: right;
+  align-items: center; }
+
+.gridImagen4 {
+  grid-area: 4 / 7 / 14 / 8;
+  display: flex;
+  justify-content: right;
+  align-items: center; }
+
+.gridImagen5 {
+  grid-area: 14 / 6 / 16 / 8;
+  display: flex;
+  justify-content: right;
+  align-items: center; }
+
+.gridImagen6 {
+  grid-area: 14 / 1 / 15 / 6;
+  display: flex;
+  justify-content: right;
+  align-items: center; }
+
+.gridImagen7 {
+  grid-area: 12 / 1 / 14 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.gridImagen8 {
+  grid-area: 7 / 1 / 12 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.gridImagen9 {
+  grid-area: 4 / 1 / 7 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.gridTitle1 {
+  grid-area: 4 / 3 / 10 / 4;
+  display: flex;
+  align-items: start;
+  padding-top: 50px; }
+
+.textOrigen {
+  writing-mode: vertical-lr;
+  text-orientation: sideways-right;
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  transform: rotate(180deg);
+  color: #726E6E; }
+
+.gridTextHistory1 {
+  grid-area: 4 / 4 / 10 / 7;
+  padding-top: 3.125rem;
+  padding-right: 3.75rem; }
+
+.gridTitle2 {
+  grid-area: 10 / 3 / 11 / 7;
+  display: flex;
+  justify-content: start;
+  align-items: center; }
+  .gridTitle2 h2, .gridTitle2 .h2 {
+    color: #F33829; }
+
+.titleSpan {
+  font-size: 5rem;
+  color: #726E6E; }
+
+.titleMaestro {
+  font-size: 5rem;
+  padding: 1.875rem; }
+
+.gridTextHistory2 {
+  grid-area: 11 / 4 / 14 / 7;
+  padding-right: 3.75rem;
+  margin-bottom: 3.125rem; }
+
+@media (max-width: 768px) {
+  .gridTelares {
+    grid-template-rows: 40px 40px 80px repeat(12, auto); }
+  .textBanner {
+    left: 25%;
+    width: 75%; }
+  .textOrigen,
+  .titleMaestro,
+  .titleSpan {
+    font-size: 40px; }
+  .textBannerTitle {
+    font-size: 2.8125rem;
+    margin-left: 2.5rem;
+    margin-right: .9375rem;
+    margin-bottom: 1.5625rem; }
+  .textBannerFrase {
+    font-size: 0.70em;
+    padding-right: 3.125rem;
+    margin-left: 2.5rem;
+    margin-bottom: 25px; }
+  .btnPagina {
+    margin-left: 2.5rem;
+    padding: 8px 30px;
+    font-size: 0.80em; }
+  .gridTextHistory1,
+  .gridTextHistory2 {
+    font-size: 14px; } }
+
+@media (max-width: 400px) {
+  .textOrigen,
+  .titleMaestro,
+  .titleSpan {
+    font-size: 25px; }
+  .textBannerTitle {
+    font-size: 20px;
+    margin-left: .9375rem;
+    margin-bottom: 5px; }
+  .textBannerFrase {
+    font-size: 0.50em;
+    margin-bottom: 10px;
+    padding: 0;
+    margin-left: .9375rem; }
+  .gridTelares {
+    grid-template-rows: none;
+    grid-template-rows: 20px 20px 60px repeat(12, auto); }
+  .gridTextHistory1,
+  .gridTextHistory2 {
+    font-size: 10px; } }
+
 .gridDondeComprar {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -10035,6 +10102,12 @@ h1, .h1, h2, .h2 {
   gap: 2rem;
   margin-top: 200px;
   margin-bottom: 3.125rem; }
+
+.gridTelares {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) repeat(2, 4fr) 1fr 1fr;
+  grid-template-rows: 5rem 5rem 7.5rem repeat(12, 8.5rem);
+  margin: 20; }
 
 .icoMedioPago {
   width: 50px;
@@ -10123,3 +10196,19 @@ footer {
 .footerLegal {
   text-align: center;
   margin-top: 20px; }
+
+@media (max-width: 400px) {
+  .isotipoFooter {
+    width: 30%;
+    height: 30%;
+    margin-left: 35%; }
+  .arquitecturaFooter {
+    flex-direction: column;
+    align-items: start; }
+  .icoRedSocial {
+    width: .9375rem;
+    height: .9375rem; }
+  .infoStructure {
+    align-items: start; }
+  .footerLegal {
+    font-size: .75rem; } }

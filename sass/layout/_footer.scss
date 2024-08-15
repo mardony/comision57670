@@ -89,3 +89,29 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+@media (max-width: 400px) {
+    .isotipoFooter {
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+    }
+
+    .arquitecturaFooter {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .icoRedSocial {
+        width: .9375rem;
+        height: .9375rem;
+    }
+
+    .infoStructure {
+        align-items: start;
+    }
+
+    .footerLegal {
+        font-size: .75rem;
+    }
+
+}
