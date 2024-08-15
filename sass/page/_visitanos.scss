@@ -1,0 +1,39 @@
+.maestroTejedor {
+    width: 400px;
+    height: 500px;
+    @include responsive-size(250px, 350px, 100px, 200px);
+}
+
+.visitasGuiadas {
+    background-color: $color_6;
+    margin: 3.125rem 0;
+}
+
+.paginaVistita {
+    display: block;
+    padding: 3.125rem 15.625rem;
+    @include responsive-padding(3.125rem 4.375rem, 3.125rem 40px);
+}
+
+.guiaMaestroTejedor {
+    display: flex;
+    padding: 1.5625rem;
+
+    @media (max-width: 400px) {
+        display: block;
+        padding: .625rem;
+    }
+}
+
+.guiasMaestro {
+    padding: 1.5625rem;
+    @include responsive-font-size(1rem, .75rem);
+}
+
+.paginaBienvenida {
+    @include responsive-font-size(50px, 30px);
+}
+
+.opcionesGuiadas {
+    @include responsive-font-size(2.1875rem, 1.5625rem);
+}

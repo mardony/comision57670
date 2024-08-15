@@ -9364,7 +9364,7 @@ h1, .h1, h2, .h2 {
   @media (max-width: 768px) {
     .textCulturaTelar {
       font-size: 2.5rem; } }
-  @media (max-width: 480px) {
+  @media (max-width: 400px) {
     .textCulturaTelar {
       font-size: 1.5rem; } }
 
@@ -9383,7 +9383,7 @@ h1, .h1, h2, .h2 {
   @media (max-width: 768px) {
     .textTelar {
       font-size: 3.75rem; } }
-  @media (max-width: 480px) {
+  @media (max-width: 400px) {
     .textTelar {
       font-size: 2.1875rem; } }
 
@@ -9403,6 +9403,529 @@ h1, .h1, h2, .h2 {
     .imgIsotipoVisita {
       width: 18.75rem;
       height: 5.625rem; } }
+
+.maestroTejedor {
+  width: 400px;
+  height: 500px; }
+  @media (max-width: 768px) {
+    .maestroTejedor {
+      width: 250px;
+      height: 350px; } }
+  @media (max-width: 480px) {
+    .maestroTejedor {
+      width: 100px;
+      height: 200px; } }
+
+.visitasGuiadas {
+  background-color: #0EB9CB;
+  margin: 3.125rem 0; }
+
+.paginaVistita {
+  display: block;
+  padding: 3.125rem 15.625rem; }
+  @media (max-width: 768px) {
+    .paginaVistita {
+      padding: 3.125rem 4.375rem; } }
+  @media (max-width: 400px) {
+    .paginaVistita {
+      padding: 3.125rem 40px; } }
+
+.guiaMaestroTejedor {
+  display: flex;
+  padding: 1.5625rem; }
+  @media (max-width: 400px) {
+    .guiaMaestroTejedor {
+      display: block;
+      padding: .625rem; } }
+
+.guiasMaestro {
+  padding: 1.5625rem; }
+  @media (max-width: 768px) {
+    .guiasMaestro {
+      font-size: 1rem; } }
+  @media (max-width: 400px) {
+    .guiasMaestro {
+      font-size: 0.75rem; } }
+
+@media (max-width: 768px) {
+  .paginaBienvenida {
+    font-size: 50px; } }
+
+@media (max-width: 400px) {
+  .paginaBienvenida {
+    font-size: 30px; } }
+
+@media (max-width: 768px) {
+  .opcionesGuiadas {
+    font-size: 2.1875rem; } }
+
+@media (max-width: 400px) {
+  .opcionesGuiadas {
+    font-size: 1.5625rem; } }
+
+.imgIsotipoCompra {
+  width: 20%;
+  margin-top: 3.125rem;
+  margin-left: 3.125rem; }
+  @media (max-width: 768px) {
+    .imgIsotipoCompra {
+      width: 30rem;
+      margin-top: 3.125rem; } }
+  @media (max-width: 400px) {
+    .imgIsotipoCompra {
+      width: 50rem;
+      margin-top: 3.125rem; } }
+
+.titleDondeComprar {
+  margin-left: 3.125rem;
+  font-size: 40px; }
+  @media (max-width: 768px) {
+    .titleDondeComprar {
+      font-size: 30px; } }
+  @media (max-width: 400px) {
+    .titleDondeComprar {
+      font-size: 25px; } }
+
+.imgResumenCompra img {
+  width: 30%; }
+
+.contactoCompra {
+  grid-area: 1 / 1 / 2 / 2;
+  display: block; }
+
+.entregaCompra {
+  grid-area: 2 / 1 / 3 / 2;
+  display: block; }
+
+.pagoCompra {
+  grid-area: 3 / 1 / 4 / 2;
+  display: block; }
+
+.resumenCompra {
+  grid-area: 1 / 2 / 4 / 3;
+  display: block; }
+
+.contenedorCard {
+  background-color: #969696;
+  padding: .5rem .5rem;
+  color: #D9D9D9;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem; }
+
+.contenedorFormPago {
+  background-color: #D9D9D9;
+  padding-bottom: 1.25rem;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem; }
+
+.inicioContacto {
+  display: flex;
+  justify-content: space-between; }
+
+.datosContacto,
+.datosEntrada,
+.datosEntradaMedio {
+  margin-top: .625rem;
+  padding: .5rem;
+  border-radius: .5rem;
+  border-style: solid;
+  border-width: .0625rem;
+  border-color: #a0a0a0;
+  width: 98%; }
+  @media (max-width: 400px) {
+    .datosContacto .datosEntradaMedio,
+    .datosEntrada .datosEntradaMedio,
+    .datosEntradaMedio .datosEntradaMedio {
+      display: block; } }
+
+.datosEnvioMundo {
+  margin-top: .625rem;
+  display: flex; }
+
+.casillasPago {
+  margin-bottom: 1.25rem; }
+
+.datosPago,
+.datosPagoM {
+  margin-top: .625rem;
+  padding: .5rem;
+  margin-left: .5rem;
+  border-radius: .5rem;
+  border-style: none;
+  width: 93%; }
+  @media (max-width: 400px) {
+    .datosPago .datosPagoM,
+    .datosPagoM .datosPagoM {
+      display: block; } }
+
+.fechaPago {
+  display: flex; }
+  @media (max-width: 400px) {
+    .fechaPago .fechaPago {
+      display: block; } }
+
+.guia {
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  color: #1E1E1E; }
+
+.resumenProductosTelar,
+.cuponResumen {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem; }
+  @media (max-width: 400px) {
+    .resumenProductosTelar .resumenProductosTelar,
+    .cuponResumen .resumenProductosTelar {
+      display: block; } }
+  @media (max-width: 400px) {
+    .resumenProductosTelar .cuponResumen,
+    .cuponResumen .cuponResumen {
+      display: block; } }
+
+.datoCupon {
+  width: 50%;
+  padding: .5rem;
+  border-radius: .5rem; }
+  @media (max-width: 400px) {
+    .datoCupon .datoCupon {
+      display: block; } }
+
+.datosCompraResumen {
+  font-size: 10px;
+  padding-top: .625rem;
+  padding-left: 3.125rem; }
+
+.btnDatoCupon,
+.btnPagarTelar {
+  width: 100%;
+  padding: .625rem;
+  border-radius: .5rem;
+  color: #D9D9D9;
+  border-style: none; }
+  .btnDatoCupon.btnDatoCupon,
+  .btnPagarTelar.btnDatoCupon {
+    background-color: #F33829; }
+  .btnDatoCupon.btnPagarTelar,
+  .btnPagarTelar.btnPagarTelar {
+    background-color: #1E1E1E; }
+  @media (max-width: 400px) {
+    .btnDatoCupon .btnDatoCupon,
+    .btnPagarTelar .btnDatoCupon {
+      display: block; } }
+
+.resumenMmonto {
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+  display: flex;
+  justify-content: space-between; }
+
+.imgTelarHombreandino {
+  width: 80%;
+  height: auto; }
+
+.imgIsotipoAgua {
+  width: 60%;
+  height: 50%; }
+
+.btnComprarProducto {
+  padding: 0px 55px;
+  font-size: 1.5em;
+  background-color: #F33829;
+  border-radius: .9375rem;
+  color: #D9D9D9;
+  border-style: none;
+  margin-top: 20px; }
+
+.imgTelares1 {
+  grid-area: 1 / 1 / 3 / 2;
+  display: flex;
+  justify-content: end;
+  align-items: center; }
+
+.imgTelares2 {
+  grid-area: 4 / 1 / 6 / 2;
+  display: flex;
+  justify-content: end;
+  align-items: center; }
+
+.imgTelares3 {
+  grid-area: 7 / 1 / 9 / 2;
+  display: flex;
+  justify-content: end;
+  align-items: center; }
+
+.isotipoAgua1 {
+  grid-area: 2 / 1 / 4 / 3;
+  display: flex;
+  background-color: #333333;
+  justify-content: end;
+  padding: 3.125rem; }
+  @media (max-width: 768px) {
+    .isotipoAgua1 .imgIsotipoAgua {
+      width: 50%;
+      height: 15%; }
+    .isotipoAgua1 .describeTelar1,
+    .isotipoAgua1 .describeTelar2,
+    .isotipoAgua1 .describeTelar3 {
+      display: none; }
+    .isotipoAgua1 .describeTelar11,
+    .isotipoAgua1 .describeTelar12,
+    .isotipoAgua1 .describeTelar13 {
+      display: block; }
+    .isotipoAgua1 .btnComprarProducto {
+      padding: 9px 30px;
+      font-size: 0.9em;
+      border-radius: .625rem;
+      margin-top: 10px; }
+    .isotipoAgua1 .isotipoAgua1,
+    .isotipoAgua1 .isotipoAgua2,
+    .isotipoAgua1 .isotipoAgua3 {
+      padding-top: .9375rem;
+      background-color: #726E6E; }
+    .isotipoAgua1 .titleProductTelar {
+      font-size: 2.5rem; } }
+  @media (max-width: 400px) {
+    .isotipoAgua1 .gridProductoTelar {
+      margin-top: 3.125rem; }
+    .isotipoAgua1 .significadoProducto1,
+    .isotipoAgua1 .significadoProducto2,
+    .isotipoAgua1 .significadoProducto3 {
+      padding-left: 1.5625rem;
+      padding-right: 1.5625rem;
+      margin-bottom: 1.5625rem; }
+    .isotipoAgua1 .especicaTelar {
+      font-size: 13px; }
+    .isotipoAgua1 .textEspecificoTelar {
+      font-size: 9px; }
+    .isotipoAgua1 .titleProductTelar {
+      font-size: 1.125rem; }
+    .isotipoAgua1 .listaEspecificaTelar {
+      font-size: 9px; }
+    .isotipoAgua1 .btnComprarProducto {
+      padding: 7px 30px;
+      font-size: 0.8em; }
+    .isotipoAgua1 .leerMasTelares {
+      font-size: .875rem; }
+    .isotipoAgua1 .imgIsotipoAgua {
+      width: 70%;
+      height: 20%; }
+    .isotipoAgua1 .isotipoAgua1,
+    .isotipoAgua1 .isotipoAgua2,
+    .isotipoAgua1 .isotipoAgua3 {
+      padding-top: .625rem; }
+    .isotipoAgua1 .gridProductoTelar {
+      grid-template-columns: 2.5fr 4fr;
+      column-gap: 12px; } }
+
+.isotipoAgua2 {
+  grid-area: 5 / 1 / 7 / 3;
+  display: flex;
+  background-color: #333333;
+  justify-content: end;
+  padding: 3.125rem; }
+  @media (max-width: 768px) {
+    .isotipoAgua2 .imgIsotipoAgua {
+      width: 50%;
+      height: 15%; }
+    .isotipoAgua2 .describeTelar1,
+    .isotipoAgua2 .describeTelar2,
+    .isotipoAgua2 .describeTelar3 {
+      display: none; }
+    .isotipoAgua2 .describeTelar11,
+    .isotipoAgua2 .describeTelar12,
+    .isotipoAgua2 .describeTelar13 {
+      display: block; }
+    .isotipoAgua2 .btnComprarProducto {
+      padding: 9px 30px;
+      font-size: 0.9em;
+      border-radius: .625rem;
+      margin-top: 10px; }
+    .isotipoAgua2 .isotipoAgua1,
+    .isotipoAgua2 .isotipoAgua2,
+    .isotipoAgua2 .isotipoAgua3 {
+      padding-top: .9375rem;
+      background-color: #726E6E; }
+    .isotipoAgua2 .titleProductTelar {
+      font-size: 2.5rem; } }
+  @media (max-width: 400px) {
+    .isotipoAgua2 .gridProductoTelar {
+      margin-top: 3.125rem; }
+    .isotipoAgua2 .significadoProducto1,
+    .isotipoAgua2 .significadoProducto2,
+    .isotipoAgua2 .significadoProducto3 {
+      padding-left: 1.5625rem;
+      padding-right: 1.5625rem;
+      margin-bottom: 1.5625rem; }
+    .isotipoAgua2 .especicaTelar {
+      font-size: 13px; }
+    .isotipoAgua2 .textEspecificoTelar {
+      font-size: 9px; }
+    .isotipoAgua2 .titleProductTelar {
+      font-size: 1.125rem; }
+    .isotipoAgua2 .listaEspecificaTelar {
+      font-size: 9px; }
+    .isotipoAgua2 .btnComprarProducto {
+      padding: 7px 30px;
+      font-size: 0.8em; }
+    .isotipoAgua2 .leerMasTelares {
+      font-size: .875rem; }
+    .isotipoAgua2 .imgIsotipoAgua {
+      width: 70%;
+      height: 20%; }
+    .isotipoAgua2 .isotipoAgua1,
+    .isotipoAgua2 .isotipoAgua2,
+    .isotipoAgua2 .isotipoAgua3 {
+      padding-top: .625rem; }
+    .isotipoAgua2 .gridProductoTelar {
+      grid-template-columns: 2.5fr 4fr;
+      column-gap: 12px; } }
+
+.isotipoAgua3 {
+  grid-area: 8 / 1 / 10 / 3;
+  display: flex;
+  background-color: #333333;
+  justify-content: end;
+  padding: 3.125rem; }
+  @media (max-width: 768px) {
+    .isotipoAgua3 .imgIsotipoAgua {
+      width: 50%;
+      height: 15%; }
+    .isotipoAgua3 .describeTelar1,
+    .isotipoAgua3 .describeTelar2,
+    .isotipoAgua3 .describeTelar3 {
+      display: none; }
+    .isotipoAgua3 .describeTelar11,
+    .isotipoAgua3 .describeTelar12,
+    .isotipoAgua3 .describeTelar13 {
+      display: block; }
+    .isotipoAgua3 .btnComprarProducto {
+      padding: 9px 30px;
+      font-size: 0.9em;
+      border-radius: .625rem;
+      margin-top: 10px; }
+    .isotipoAgua3 .isotipoAgua1,
+    .isotipoAgua3 .isotipoAgua2,
+    .isotipoAgua3 .isotipoAgua3 {
+      padding-top: .9375rem;
+      background-color: #726E6E; }
+    .isotipoAgua3 .titleProductTelar {
+      font-size: 2.5rem; } }
+  @media (max-width: 400px) {
+    .isotipoAgua3 .gridProductoTelar {
+      margin-top: 3.125rem; }
+    .isotipoAgua3 .significadoProducto1,
+    .isotipoAgua3 .significadoProducto2,
+    .isotipoAgua3 .significadoProducto3 {
+      padding-left: 1.5625rem;
+      padding-right: 1.5625rem;
+      margin-bottom: 1.5625rem; }
+    .isotipoAgua3 .especicaTelar {
+      font-size: 13px; }
+    .isotipoAgua3 .textEspecificoTelar {
+      font-size: 9px; }
+    .isotipoAgua3 .titleProductTelar {
+      font-size: 1.125rem; }
+    .isotipoAgua3 .listaEspecificaTelar {
+      font-size: 9px; }
+    .isotipoAgua3 .btnComprarProducto {
+      padding: 7px 30px;
+      font-size: 0.8em; }
+    .isotipoAgua3 .leerMasTelares {
+      font-size: .875rem; }
+    .isotipoAgua3 .imgIsotipoAgua {
+      width: 70%;
+      height: 20%; }
+    .isotipoAgua3 .isotipoAgua1,
+    .isotipoAgua3 .isotipoAgua2,
+    .isotipoAgua3 .isotipoAgua3 {
+      padding-top: .625rem; }
+    .isotipoAgua3 .gridProductoTelar {
+      grid-template-columns: 2.5fr 4fr;
+      column-gap: 12px; } }
+
+.detallesProducto1 {
+  grid-area: 1 / 2 / 3 / 3;
+  border-left-style: dashed;
+  border-color: #F33829;
+  border-width: 4px;
+  color: #D9D9D9;
+  display: block;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem; }
+
+.detallesProducto2 {
+  grid-area: 4 / 2 / 6 / 3;
+  border-left-style: dashed;
+  border-color: #F33829;
+  border-width: 4px;
+  color: #D9D9D9;
+  display: block;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem; }
+
+.detallesProducto3 {
+  grid-area: 7 / 2 / 9 / 3;
+  border-left-style: dashed;
+  border-color: #F33829;
+  border-width: 4px;
+  color: #D9D9D9;
+  display: block;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem; }
+
+.significadoProducto1 {
+  grid-area: 3 / 1 / 4 / 3;
+  display: block;
+  padding-left: 5.625rem;
+  padding-right: 3.125rem;
+  color: #D9D9D9;
+  margin-bottom: 3.125rem; }
+
+.significadoProducto2 {
+  grid-area: 6 / 1 / 7 / 3;
+  display: block;
+  padding-left: 5.625rem;
+  padding-right: 3.125rem;
+  color: #D9D9D9;
+  margin-bottom: 3.125rem; }
+
+.significadoProducto3 {
+  grid-area: 9 / 1 / 10 / 3;
+  display: block;
+  padding-left: 5.625rem;
+  padding-right: 3.125rem;
+  color: #D9D9D9;
+  margin-bottom: 3.125rem; }
+
+.gridDondeComprar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  column-gap: 6.25rem;
+  row-gap: 3.125rem;
+  padding: 3.125rem;
+  margin: 1.25rem; }
+  @media (max-width: 768px) {
+    .gridDondeComprar {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, auto); }
+      .gridDondeComprar .resumenCompra {
+        grid-area: 1 / 1 / 2 / 2; }
+      .gridDondeComprar .contactoCompra {
+        grid-area: 2 / 1 / 3 /2; }
+      .gridDondeComprar .entregaCompra {
+        grid-area: 3 / 1 / 4 /2; }
+      .gridDondeComprar .pagoCompra {
+        grid-area: 4 / 1 / 5 / 2; } }
+
+.gridProductoTelar {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: repeat(9, auto);
+  gap: 2rem;
+  margin-top: 200px;
+  margin-bottom: 3.125rem; }
 
 .icoMedioPago {
   width: 50px;

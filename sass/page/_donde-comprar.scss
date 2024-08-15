@@ -1,0 +1,151 @@
+.imgIsotipoCompra {
+    width: 20%;
+    margin-top: 3.125rem;
+    margin-left: 3.125rem;
+    @include responsive-img-size(30rem, 50rem);
+}
+
+.titleDondeComprar {
+    margin-left: 3.125rem;
+    font-size: 40px;
+    @include responsive-font-size(30px, 25px);
+}
+
+.imgResumenCompra {
+    img {
+        width: 30%;
+    }
+}
+
+.contactoCompra {
+    @include grid-area-compra(1, 1, 2, 2)
+}
+
+.entregaCompra {
+    @include grid-area-compra(2, 1, 3, 2)
+}
+
+.pagoCompra {
+    @include grid-area-compra(3, 1, 4, 2)
+}
+
+.resumenCompra {
+    @include grid-area-compra(1, 2, 4, 3)
+}
+
+.contenedorCard {
+    background-color: $color-gris;
+    padding: .5rem .5rem;
+    color: $color_3;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.contenedorFormPago {
+    background-color: $color_3;
+    padding-bottom: 1.25rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.inicioContacto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datosContacto,
+.datosEntrada,
+.datosEntradaMedio {
+    margin-top: .625rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    border-style: solid;
+    border-width: .0625rem;
+    border-color: rgb(160, 160, 160);
+    width: 98%;
+
+    @include responsive-block(".datosEntradaMedio", block);
+}
+
+.datosEnvioMundo {
+    margin-top: .625rem;
+    display: flex;
+}
+
+.casillasPago {
+    margin-bottom: 1.25rem;
+}
+
+.datosPago,
+.datosPagoM {
+    margin-top: .625rem;
+    padding: .5rem;
+    margin-left: .5rem;
+    border-radius: .5rem;
+    border-style: none;
+    width: 93%;
+
+    @include responsive-block(".datosPagoM", block);
+}
+
+.fechaPago {
+    display: flex;
+
+    @include responsive-block(".fechaPago", block);
+}
+
+.guia {
+    font-size: 1.25rem;
+    font-family: $font-family_1;
+    color: $color_9;
+}
+
+.resumenProductosTelar,
+.cuponResumen {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+
+    @include responsive-block(".resumenProductosTelar", block);
+    @include responsive-block(".cuponResumen", block);
+}
+
+.datoCupon {
+    width: 50%;
+    padding: .5rem;
+    border-radius: .5rem;
+
+    @include responsive-block(".datoCupon", block);
+}
+
+.datosCompraResumen {
+    font-size: 10px;
+    padding-top: .625rem;
+    padding-left: 3.125rem;
+}
+
+.btnDatoCupon,
+.btnPagarTelar {
+    width: 100%;
+    padding: .625rem;
+    border-radius: .5rem;
+    color: $color_3;
+    border-style: none;
+
+    &.btnDatoCupon {
+        background-color: $color_1;
+    }
+
+    &.btnPagarTelar {
+        background-color: $color_9;
+    }
+
+    @include responsive-block(".btnDatoCupon", block);
+}
+
+.resumenMmonto {
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+}

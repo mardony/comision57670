@@ -1,0 +1,74 @@
+.imgTelarHombreandino {
+    @include img-style(80%);
+}
+
+.imgIsotipoAgua {
+    @include img-style(60%, 50%);
+}
+
+.btnComprarProducto {
+    @include btn-style();
+}
+
+.imgTelares1 {
+    @include grid-area-telar(1, 1, 3, 2);
+    @include imagen-telar();
+}
+
+.imgTelares2 {
+    @include grid-area-telar(4, 1, 6, 2);
+    @include imagen-telar();
+}
+
+.imgTelares3 {
+    @include grid-area-telar(7, 1, 9, 2);
+    @include imagen-telar();
+}
+
+.isotipoAgua1 {
+    @include grid-area-telar(2, 1, 4, 3);
+    @include isotipoAgua();
+    @include responsive-telares(50%, 15%)
+}
+
+.isotipoAgua2 {
+    @include grid-area-telar(5, 1, 7, 3);
+    @include isotipoAgua();
+    @include responsive-telares(50%, 15%)
+}
+
+.isotipoAgua3 {
+    @include grid-area-telar(8, 1, 10, 3);
+    @include isotipoAgua();
+    @include responsive-telares(50%, 15%);
+}
+
+.detallesProducto1 {
+    @include grid-area-telar(1, 2, 3, 3);
+    @include detalleProducto();
+}
+
+.detallesProducto2 {
+    @include grid-area-telar(4, 2, 6, 3);
+    @include detalleProducto();
+}
+
+.detallesProducto3 {
+    @include grid-area-telar(7, 2, 9, 3);
+    @include detalleProducto();
+}
+
+.significadoProducto1 {
+    @include grid-area-telar(3, 1, 4, 3);
+    @include significadoProducto();
+}
+
+.significadoProducto2 {
+    @include grid-area-telar(6, 1, 7, 3);
+    @include significadoProducto();
+}
+
+.significadoProducto3 {
+    @include grid-area-telar(9, 1, 10, 3);
+    @include significadoProducto();
+}

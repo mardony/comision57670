@@ -38,20 +38,6 @@
     text-align: center;
 }
 
-/////////////////////////////////////////////////////
-/// Mixins banner telares
-
-@mixin responsive-font-size($size-md, $size-sm) {
-
-    @media (max-width: 768px) {
-        font-size: $size-md;
-    }
-
-    @media (max-width: 480px) {
-        font-size: $size-sm;
-    }
-}
-
 /////////////////////////////////////////
 /// banner dónde comprar
 
@@ -64,5 +50,232 @@
     @media (max-width: 480px) {
         width: $width-sm;
         height: $height-sm;
+    }
+}
+
+//////////////////////////////////////////
+///
+/// Mixins visitanos
+
+@mixin responsive-font-size($font-md, $font-sm) {
+    @media (max-width: 768px) {
+        font-size: $font-md;
+    }
+
+    @media (max-width: 400px) {
+        font-size: $font-sm;
+    }
+}
+
+@mixin responsive-padding($padding-md, $padding-sm) {
+    @media (max-width: 768px) {
+        padding: $padding-md;
+    }
+
+    @media (max-width: 400px) {
+        padding: $padding-sm;
+    }
+}
+
+//////////////////////////////////////////////
+/// mixin de donde comprar
+@mixin responsive-img-size($width-md, $width-sm) {
+    @media (max-width: 768px) {
+        width: $width-md;
+        margin-top: 3.125rem;
+    }
+
+    @media (max-width: 400px) {
+        width: $width-sm;
+        margin-top: 3.125rem;
+    }
+}
+
+@mixin responsive-grid {
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+
+        .resumenCompra {
+            grid-area: 1 / 1 / 2 / 2;
+        }
+
+        .contactoCompra {
+            grid-area: 2 / 1 / 3 /2;
+        }
+
+        .entregaCompra {
+            grid-area: 3 / 1 / 4 /2;
+        }
+
+        .pagoCompra {
+            grid-area: 4 / 1 / 5 / 2;
+        }
+    }
+}
+
+@mixin responsive-block($selector, $display-block) {
+    @media (max-width: 400px) {
+        #{$selector} {
+            display: $display-block;
+        }
+    }
+}
+
+@mixin grid-area-compra($row-start,
+    $column-start,
+    $row-end,
+    $column-end) {
+    grid-area: #{$row-start} / #{$column-start} / #{$row-end} / #{$column-end};
+    display: block;
+}
+
+
+//////////////////////////////////////////////////
+/// mixin telares
+///
+@mixin grid-area-telar($row-start, $col-start, $row-end, $col-end) {
+    grid-area: #{$row-start} / #{$col-start} / #{$row-end} / #{$col-end};
+}
+
+@mixin imagen-telar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+@mixin isotipoAgua {
+    display: flex;
+    background-color: #333333;
+    justify-content: end;
+    padding: 3.125rem;
+}
+
+@mixin detalleProducto {
+    border-left-style: dashed;
+    border-color: $color_1;
+    border-width: 4px;
+    color: $color_3;
+    display: block;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+}
+
+@mixin significadoProducto {
+    display: block;
+    padding-left: 5.625rem;
+    padding-right: 3.125rem;
+    color: $color_3;
+    margin-bottom: 3.125rem;
+}
+
+// Mixin para los estilos de la imagen
+@mixin img-style($width: 100%, $height: auto) {
+    width: $width;
+    height: $height;
+}
+
+// Mixin para los botones
+@mixin btn-style($padding: 0px 55px, $font-size: 1.5em, $bg-color: #F33829) {
+    padding: $padding;
+    font-size: $font-size;
+    background-color: $bg-color;
+    border-radius: .9375rem;
+    color: $color_3;
+    border-style: none;
+    margin-top: 20px;
+}
+
+@mixin responsive-telares($width, $height) {
+    @media (max-width: 768px) {
+        .imgIsotipoAgua {
+            width: $width;
+            height: $height;
+        }
+
+        .describeTelar1,
+        .describeTelar2,
+        .describeTelar3 {
+            display: none;
+        }
+
+        .describeTelar11,
+        .describeTelar12,
+        .describeTelar13 {
+            display: block;
+        }
+
+        .btnComprarProducto {
+            padding: 9px 30px;
+            font-size: 0.9em;
+            border-radius: .625rem;
+            margin-top: 10px;
+        }
+
+        .isotipoAgua1,
+        .isotipoAgua2,
+        .isotipoAgua3 {
+            padding-top: .9375rem;
+            background-color: #726E6E;
+        }
+
+        .titleProductTelar {
+            font-size: 2.5rem;
+        }
+    }
+
+    @media (max-width: 400px) {
+        .gridProductoTelar {
+            margin-top: 3.125rem;
+        }
+
+        .significadoProducto1,
+        .significadoProducto2,
+        .significadoProducto3 {
+            padding-left: 1.5625rem;
+            padding-right: 1.5625rem;
+            margin-bottom: 1.5625rem;
+        }
+
+        .especicaTelar {
+            font-size: 13px;
+        }
+
+        .textEspecificoTelar {
+            font-size: 9px;
+        }
+
+        .titleProductTelar {
+            font-size: 1.125rem;
+        }
+
+        .listaEspecificaTelar {
+            font-size: 9px;
+        }
+
+        .btnComprarProducto {
+            padding: 7px 30px;
+            font-size: 0.8em;
+        }
+
+        .leerMasTelares {
+            font-size: .875rem;
+        }
+
+        .imgIsotipoAgua {
+            width: 70%;
+            height: 20%;
+        }
+
+        .isotipoAgua1,
+        .isotipoAgua2,
+        .isotipoAgua3 {
+            padding-top: .625rem;
+        }
+
+        .gridProductoTelar {
+            grid-template-columns: 2.5fr 4fr;
+            column-gap: 12px;
+        }
     }
 }

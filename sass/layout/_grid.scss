@@ -1,0 +1,19 @@
+.gridDondeComprar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    column-gap: 6.25rem;
+    row-gap: 3.125rem;
+    padding: 3.125rem;
+    margin: 1.25rem;
+    @include responsive-grid;
+}
+
+.gridProductoTelar {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: repeat(9, auto);
+    gap: 2rem;
+    margin-top: 200px;
+    margin-bottom: 3.125rem;
+}
