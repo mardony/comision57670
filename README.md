@@ -36,9 +36,31 @@ Información sobre cómo visitar los talleres y comunidades de tejedores en Ayac
 
 ## Tecnologías Utilizadas
 
-- **HTML5**
-- **CSS3**
-- **Bootstrap 5.3.3**
+- **HTML5**: Estructura y contenido de las páginas.
+- **CSS3**: Estilos personalizados y diseño del sitio.
+- **Bootstrap**: Framework CSS utilizado para agilizar el desarrollo y crear un diseño responsive.
+- **Sass**: Preprocesador CSS utilizado para facilitar el manejo de estilos y mejorar la mantenibilidad del código.
+- **Animaciones**: Implementación de animaciones para mejorar la experiencia de usuario.
+- **SEO**: Optimización del sitio para motores de búsqueda, mejorando la visibilidad y el ranking en los resultados de búsqueda.
+- **Netlify**: Plataforma de despliegue utilizada para alojar el sitio web y gestionar el dominio.
+- **Git**: Control de versiones utilizado para el seguimiento de cambios en el código.
+- **GitHub**: Repositorio en línea para la colaboración y el manejo del proyecto.
+- **Node.js**: Herramientas y paquetes utilizados durante el desarrollo.
+
+## Despliegue
+
+El sitio web está desplegado en **Netlify**. Puedes visitarlo en el siguiente enlace:
+
+- [Telar Oncebay en Netlify](https://main--telar11bay.netlify.app/)
+
+## Enlaces Importantes
+
+- **Repositorio en GitHub**: [Telar Oncebay en GitHub](https://github.com/mardony/comision57670)
+- **GitHub Pages**: [Telar Oncebay en GitHub Pages](https://mardony.github.io/comision57670/)
+- **Figma (Diseño)**: [Diseño de Telar Oncebay en Figma](https://www.figma.com/design/zew7vAzfT8oxjUiwpvZz9N/Web---App?node-id=0-1&t=XlRGfzmhLFbl78EP-1)
+- **Servidor de Producción**: [Telar Oncebay en Producción](https://main--telar11bay.netlify.app/)
+- **Presupuesto del Proyecto**: [Proyecto página web Telar Oncebay](https://www.canva.com/design/DAGPA5IQ_Z8/xaAIiBi7R813xn-u3bK8Cw/edit?utm_content=DAGPA5IQ_Z8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 
 ## Instalación y Uso
 
@@ -69,8 +91,8 @@ Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consult
 Para más información, sugerencias o consultas, por favor contacta a:
 
 **Telar Oncebay Team**
-Email: [info@ingenieriambym.com](mailto:info@ingenieriambym.com)
-Website: [www.ingenieriambym.com](http://www.ingenieriambym.com)
+Email: [info@ingenieriambym.com](mailto:info@myingenieria.com)
+Website: [www.ingenieriambym.com](http://www.myingenieria.com)
 
 ---
 
