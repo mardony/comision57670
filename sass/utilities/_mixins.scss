@@ -196,13 +196,148 @@
 
 /////////////////////////////////////////////////////
 /// Home Origen
-@mixin formato-img-origen($width-img, $height-img){
-    width: $width-img;
-    height: $height-img;
+@mixin origen-max-width-1440 {
+    @media (max-width: 1440px) {
+        .tejidosOrigenDescripcion {
+            padding: 150px 30px;
+        }
+
+        .origenTextHistory {
+            h3 {
+                font-size: 30px;
+            }
+
+            div {
+                p {
+                    color: $color_4;
+                    font-size: 18px;
+                }
+            }
+
+            .oImgTelar1 {
+                @include grid-area-telar(2, 2, 3, 4)
+            }
+
+            .oImgTelar2 {
+                @include grid-area-telar(6, 2, 7, 4)
+            }
+
+            .oImgTelar3 {
+                @include grid-area-telar(10, 2, 11, 4)
+            }
+
+            .oImgTelar4 {
+                @include grid-area-telar(14, 2, 15, 4)
+            }
+        }
+    }
 }
 
-@mixin contenedor-img-tapiz($display-tapiz,$justify-tapiz, $aligh-tapiz){
-    display: $display-tapiz;
-    justify-content: $justify-tapiz;
-    align-items: $aligh-tapiz;
+@mixin origen-max-width-768 {
+    @media (max-width: 768px) {
+
+        .origenDescripcionImagen {
+            font-size: 1.875rem;
+        }
+
+        .tejidosOrigen img {
+            width: 100%;
+            height: 100%;
+            border-radius: 25px;
+            border: 5px solid $color_1;
+        }
+
+        .oImgTelar1 {
+            @include grid-area-telar(2, 1, 3, 4)
+        }
+
+        .oImgTelar2 {
+            @include grid-area-telar(6, 1, 7, 4)
+        }
+
+        .oImgTelar3 {
+            @include grid-area-telar(10, 1, 11, 4)
+        }
+
+        .oImgTelar4 {
+            @include grid-area-telar(14, 1, 15, 4)
+        }
+
+        .tejidosOrigenDescripcion {
+            padding: 80px 30px;
+            position: absolute;
+            top: 15%;
+            left: 12%;
+            transform: translate(-7%, -10%);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .textOrigen {
+            all: unset;
+            align-self: center;
+            justify-self: center;
+            font-size: 3.125rem;
+            color: $color_3;
+            letter-spacing: 30px;
+        }
+
+        .textOrigen1 {
+            @include grid-area-telar(4, 3, 5, 7)
+        }
+
+        .textOrigen2 {
+            @include grid-area-telar(8, 3, 9, 7);
+        }
+
+        .textOrigen3 {
+            @include grid-area-telar(12, 3, 13, 7);
+        }
+
+        .textOrigen4 {
+            @include grid-area-telar(16, 3, 17, 7);
+        }
+
+        .origenTextHistory {
+            padding: 20px;
+
+            h3 {
+                padding-top: 1.875rem;
+                padding-bottom: 1.875rem;
+                font-size: 1.875rem;
+            }
+
+            div {
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .origenTextHistory1 {
+            @include grid-area-telar(2, 4, 4, 7)
+        }
+
+        .origenTextHistory2 {
+            @include grid-area-telar(6, 4, 8, 7)
+        }
+
+        .origenTextHistory3 {
+            @include grid-area-telar(10, 4, 12, 7)
+        }
+
+        .origenTextHistory4 {
+            @include grid-area-telar(14, 4, 16, 7)
+        }
+    }
+
+}
+
+
+
+///////////////////////////////////////////////////////
+/// Mejoras
+@mixin gradiente-dos-colores($direcion, $colo1, $color2) {
+    background-image: linear-gradient($direcion, $colo1, $color2);
 }

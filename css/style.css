@@ -9897,182 +9897,237 @@ h1, .h1, h2, .h2 {
     grid-template-columns: 2.5fr 4fr;
     column-gap: 12px; } }
 
-.bannerHome {
-  width: 100%; }
-
-.isologoBody {
-  width: 60%;
-  height: 80%; }
-
-.telarRomboSi {
+.origenFondo {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  border-radius: 1.5625rem;
+  background-image: linear-gradient(to right, #F33829, #027381); }
 
-.telarRomboId,
-.telarRomboSd {
-  width: 80%;
-  height: 100%; }
+.origenFondo1 {
+  grid-area: 2 / 2 / 5 / 7; }
 
-.telarRomboMi3,
-.telarRomboMi1 {
-  width: 40%;
-  height: 100%; }
+.origenFondo2 {
+  grid-area: 6 / 2 / 9 / 7; }
 
-.telarRomboMi2 {
+.origenFondo3 {
+  grid-area: 10 / 2 / 13 / 7; }
+
+.origenFondo4 {
+  grid-area: 14 / 2 / 17 / 7; }
+
+.origenDescripcionImagen {
+  text-align: center;
+  place-self: center;
+  font-size: 2.1875rem;
+  color: #F33829; }
+
+.origenFondoAlternativo {
   width: 90%;
-  height: 70%; }
+  height: 100%;
+  background-color: white;
+  border-radius: 1.5625rem; }
 
-.telarRomboMd {
-  width: 70%;
-  height: 100%; }
+.origenFondoAlter1,
+.origenDescripcionImagen1 {
+  grid-area: 3 / 1 / 4 / 4; }
 
-.telarRomboIi {
-  width: 94.5%;
-  height: 100%; }
+.origenFondoAlter2, .origenDescripcionImagen2 {
+  grid-area: 7 / 1 / 8 / 4; }
 
-.gridImagen1 {
-  grid-area: 1 / 1 / 4 / 5;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.origenFondoAlter3, .origenDescripcionImagen3 {
+  grid-area: 11 / 1 / 12 / 4; }
 
-.gridImagen2 {
-  grid-area: 1 / 5 / 3 / 8;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.origenFondoAlter4, .origenDescripcionImagen4 {
+  grid-area: 15 / 1 / 16 / 4; }
 
-.gridImagen3 {
-  grid-area: 3 / 5 / 4 / 8;
-  display: flex;
-  justify-content: right;
-  align-items: center; }
+.origenFondoComplemento {
+  width: 100%;
+  height: 100%;
+  background-color: white; }
 
-.gridImagen4 {
-  grid-area: 4 / 7 / 14 / 8;
-  display: flex;
-  justify-content: right;
-  align-items: center; }
+.origenFondoComplemento1 {
+  grid-area: 4 / 1 / 5 / 3; }
 
-.gridImagen5 {
-  grid-area: 14 / 6 / 16 / 8;
-  display: flex;
-  justify-content: right;
-  align-items: center; }
+.origenFondoComplemento2 {
+  grid-area: 8 / 1 / 9 / 3; }
 
-.gridImagen6 {
-  grid-area: 14 / 1 / 15 / 6;
-  display: flex;
-  justify-content: right;
-  align-items: center; }
+.origenFondoComplemento3 {
+  grid-area: 12 / 1 / 13 / 3; }
 
-.gridImagen7 {
-  grid-area: 12 / 1 / 14 / 3;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.origenFondoComplemento4 {
+  grid-area: 16 / 1 / 17 / 3; }
 
-.gridImagen8 {
-  grid-area: 7 / 1 / 12 / 3;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.tejidosOrigen img {
+  width: 90%;
+  height: 90;
+  border-radius: 25px; }
 
-.gridImagen9 {
-  grid-area: 4 / 1 / 7 / 3;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.tejidosOrigen {
+  padding: 25px;
+  place-self: center; }
 
-.gridTitle1 {
-  grid-area: 4 / 3 / 10 / 4;
-  display: flex;
-  align-items: start;
-  padding-top: 50px; }
+.tejidosOrigenDescripcion {
+  padding: 200px 30px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: translate(-15%, -15%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.oImgTelar1 {
+  position: relative;
+  grid-area: 2 / 2 / 3 / 4; }
+
+.oImgTelar1:hover .tejidosOrigenDescripcion {
+  opacity: 1;
+  color: #FFFFFF; }
+
+.oImgTelar2 {
+  position: relative;
+  grid-area: 6 / 2 / 7 / 4; }
+
+.oImgTelar2:hover .tejidosOrigenDescripcion {
+  opacity: 1;
+  color: #FFFFFF; }
+
+.oImgTelar3 {
+  position: relative;
+  grid-area: 10 / 2 / 11 / 4; }
+
+.oImgTelar3:hover .tejidosOrigenDescripcion {
+  opacity: 1;
+  color: #FFFFFF; }
+
+.oImgTelar4 {
+  position: relative;
+  grid-area: 14 / 2 / 15 / 4; }
+
+.oImgTelar4:hover .tejidosOrigenDescripcion {
+  opacity: 1;
+  color: #FFFFFF; }
 
 .textOrigen {
   writing-mode: vertical-lr;
   text-orientation: sideways-right;
   font-family: "Poppins", sans-serif;
-  font-size: 5rem;
+  font-size: 6.25rem;
   font-weight: bold;
   transform: rotate(180deg);
-  color: #726E6E; }
-
-.gridTextHistory1 {
-  grid-area: 4 / 4 / 10 / 7;
-  padding-top: 3.125rem;
-  padding-right: 3.75rem; }
-
-.gridTitle2 {
-  grid-area: 10 / 3 / 11 / 7;
   display: flex;
-  justify-content: start;
-  align-items: center; }
-  .gridTitle2 h2, .gridTitle2 .h2 {
-    color: #F33829; }
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 50px;
+  color: #D9D9D9; }
 
-.titleSpan {
-  font-size: 5rem;
-  color: #726E6E; }
+.textOrigen1 {
+  grid-area: 2 / 6 / 5 / 7; }
 
-.titleMaestro {
-  font-size: 5rem;
-  padding: 1.875rem; }
+.textOrigen2 {
+  grid-area: 6 / 6 / 9 / 7; }
 
-.gridTextHistory2 {
-  grid-area: 11 / 4 / 14 / 7;
-  padding-right: 3.75rem;
-  margin-bottom: 3.125rem; }
+.textOrigen3 {
+  grid-area: 10 / 6 / 13 / 7; }
+
+.textOrigen4 {
+  grid-area: 14 / 6 / 17 / 7; }
+
+.origenTextHistory {
+  padding: 25px; }
+  .origenTextHistory h3, .origenTextHistory .h3 {
+    padding-top: 3.125rem;
+    padding-bottom: 5rem;
+    color: #D9D9D9;
+    font-size: 50px; }
+  .origenTextHistory div p {
+    font-size: 20px; }
+
+.origenTextHistory1 {
+  grid-area: 2 / 4 / 4 / 6; }
+
+.origenTextHistory2 {
+  grid-area: 6 / 4 / 8 / 6; }
+
+.origenTextHistory3 {
+  grid-area: 10 / 4 / 12 / 6; }
+
+.origenTextHistory4 {
+  grid-area: 14 / 4 / 16 / 6; }
+
+@media (max-width: 1440px) {
+  .tejidosOrigenDescripcion {
+    padding: 150px 30px; }
+  .origenTextHistory h3, .origenTextHistory .h3 {
+    font-size: 30px; }
+  .origenTextHistory div p {
+    color: #FFFFFF;
+    font-size: 18px; }
+  .origenTextHistory .oImgTelar1 {
+    grid-area: 2 / 2 / 3 / 4; }
+  .origenTextHistory .oImgTelar2 {
+    grid-area: 6 / 2 / 7 / 4; }
+  .origenTextHistory .oImgTelar3 {
+    grid-area: 10 / 2 / 11 / 4; }
+  .origenTextHistory .oImgTelar4 {
+    grid-area: 14 / 2 / 15 / 4; } }
 
 @media (max-width: 768px) {
-  .gridTelares {
-    grid-template-rows: 40px 40px 80px repeat(12, auto); }
-  .textBanner {
-    left: 25%;
-    width: 75%; }
-  .textOrigen,
-  .titleMaestro,
-  .titleSpan {
-    font-size: 40px; }
-  .textBannerTitle {
-    font-size: 2.8125rem;
-    margin-left: 2.5rem;
-    margin-right: .9375rem;
-    margin-bottom: 1.5625rem; }
-  .textBannerFrase {
-    font-size: 0.70em;
-    padding-right: 3.125rem;
-    margin-left: 2.5rem;
-    margin-bottom: 25px; }
-  .btnPagina {
-    margin-left: 2.5rem;
-    padding: 8px 30px;
-    font-size: 0.80em; }
-  .gridTextHistory1,
-  .gridTextHistory2 {
-    font-size: 14px; } }
-
-@media (max-width: 400px) {
-  .textOrigen,
-  .titleMaestro,
-  .titleSpan {
-    font-size: 25px; }
-  .textBannerTitle {
-    font-size: 20px;
-    margin-left: .9375rem;
-    margin-bottom: 5px; }
-  .textBannerFrase {
-    font-size: 0.50em;
-    margin-bottom: 10px;
-    padding: 0;
-    margin-left: .9375rem; }
-  .gridTelares {
-    grid-template-rows: none;
-    grid-template-rows: 20px 20px 60px repeat(12, auto); }
-  .gridTextHistory1,
-  .gridTextHistory2 {
-    font-size: 10px; } }
+  .origenDescripcionImagen {
+    font-size: 1.875rem; }
+  .tejidosOrigen img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    border: 5px solid #F33829; }
+  .oImgTelar1 {
+    grid-area: 2 / 1 / 3 / 4; }
+  .oImgTelar2 {
+    grid-area: 6 / 1 / 7 / 4; }
+  .oImgTelar3 {
+    grid-area: 10 / 1 / 11 / 4; }
+  .oImgTelar4 {
+    grid-area: 14 / 1 / 15 / 4; }
+  .tejidosOrigenDescripcion {
+    padding: 80px 30px;
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    transform: translate(-7%, -10%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.8); }
+  .textOrigen {
+    all: unset;
+    align-self: center;
+    justify-self: center;
+    font-size: 3.125rem;
+    color: #D9D9D9;
+    letter-spacing: 30px; }
+  .textOrigen1 {
+    grid-area: 4 / 3 / 5 / 7; }
+  .textOrigen2 {
+    grid-area: 8 / 3 / 9 / 7; }
+  .textOrigen3 {
+    grid-area: 12 / 3 / 13 / 7; }
+  .textOrigen4 {
+    grid-area: 16 / 3 / 17 / 7; }
+  .origenTextHistory {
+    padding: 20px; }
+    .origenTextHistory h3, .origenTextHistory .h3 {
+      padding-top: 1.875rem;
+      padding-bottom: 1.875rem;
+      font-size: 1.875rem; }
+    .origenTextHistory div p {
+      font-size: 16px; }
+  .origenTextHistory1 {
+    grid-area: 2 / 4 / 4 / 7; }
+  .origenTextHistory2 {
+    grid-area: 6 / 4 / 8 / 7; }
+  .origenTextHistory3 {
+    grid-area: 10 / 4 / 12 / 7; }
+  .origenTextHistory4 {
+    grid-area: 14 / 4 / 16 / 7; } }
 
 .gridDondeComprar {
   display: grid;
@@ -10105,8 +10160,8 @@ h1, .h1, h2, .h2 {
 
 .gridTelares {
   display: grid;
-  grid-template-columns: repeat(3, 1fr) repeat(2, 4fr) 1fr 1fr;
-  grid-template-rows: 5rem 5rem 7.5rem repeat(12, 8.5rem);
+  grid-template-columns: 0.5fr repeat(5, 1fr) 0.5fr;
+  grid-template-rows: repeat(4, 100px 600px 100px 100px) 100px;
   margin: 20; }
 
 .icoMedioPago {
