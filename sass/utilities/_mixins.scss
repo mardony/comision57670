@@ -196,10 +196,14 @@
 
 /////////////////////////////////////////////////////
 /// Home Origen
+
 @mixin origen-max-width-1440 {
     @media (max-width: 1440px) {
         .tejidosOrigenDescripcion {
+            top: 88px;
+            height: 95%;
             padding: 150px 30px;
+            border-radius: 1.5625rem;
         }
 
         .origenTextHistory {
@@ -237,7 +241,7 @@
     @media (max-width: 768px) {
 
         .origenDescripcionImagen {
-            font-size: 1.875rem;
+            font-size: 1.5625rem;
         }
 
         .tejidosOrigen img {
@@ -264,11 +268,14 @@
         }
 
         .tejidosOrigenDescripcion {
-            padding: 80px 30px;
+            border-radius: 1.25rem;
+            height: 90%;
+            font-size: .9375rem;
+            padding: 40px 25px;
             position: absolute;
-            top: 15%;
+            top: 16%;
             left: 12%;
-            transform: translate(-7%, -10%);
+            transform: translate(-7%, -12%);
             opacity: 0;
             transition: opacity 0.3s ease-in-out;
             background-color: rgba(0, 0, 0, 0.8);
@@ -300,12 +307,13 @@
         }
 
         .origenTextHistory {
-            padding: 20px;
+            padding: 15px;
+            padding-right: 2.5rem;
 
             h3 {
-                padding-top: 1.875rem;
-                padding-bottom: 1.875rem;
-                font-size: 1.875rem;
+                padding-top: 1.5625rem;
+                padding-bottom: 1.5625rem;
+                font-size: 25px;
             }
 
             div {
@@ -330,11 +338,80 @@
         .origenTextHistory4 {
             @include grid-area-telar(14, 4, 16, 7)
         }
-    }
 
+    }
 }
 
+@mixin origen-max-width-400 {
+    @media(max-width: 400px) {
 
+            .tejidosOrigen {
+                padding: 0px;
+            }
+
+            .oImgTelar1 {
+                @include grid-area-telar(2, 2, 3, 7)
+            }
+
+            .oImgTelar2 {
+                @include grid-area-telar(6, 2, 7, 7)
+            }
+
+            .oImgTelar3 {
+                @include grid-area-telar(10, 2, 11, 7)
+            }
+
+            .oImgTelar4 {
+                @include grid-area-telar(14, 2, 15, 7)
+            }
+
+            .origenTextHistory {
+                padding: .9375rem;
+
+                div {
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .origenTextHistory1 {
+                @include grid-area-telar(3, 2, 4, 7)
+            }
+
+            .origenTextHistory2 {
+                @include grid-area-telar(7, 2, 8, 7)
+            }
+
+            .origenTextHistory3 {
+                @include grid-area-telar(11, 2, 12, 7)
+            }
+
+            .origenTextHistory4 {
+                @include grid-area-telar(15, 2, 16, 7)
+            }
+
+            .origenDescripcionImagen {
+
+                font-size: .75rem;
+            }
+
+            .textOrigen {
+                margin: .9375rem;
+                padding-right: 35px;
+                letter-spacing: 15px;
+            }
+
+            .origenFondoAlternativo,
+            .origenFondoComplemento {
+                display: none;
+            }
+
+            .origenDescripcionImagen {
+                display: none;
+            }
+        }
+}
 
 ///////////////////////////////////////////////////////
 /// Mejoras

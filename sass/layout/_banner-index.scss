@@ -29,9 +29,10 @@
     font-size: 1em;
     color: $color_4;
     background-color: $color_1;
-    border: 0px ;
+    border: 0px;
     border-radius: .3125rem;
     transition: background-color 0.3s;
+
     &:hover {
         background-color: $color_6;
     }
@@ -86,4 +87,148 @@
     width: 37.5rem;
     height: 15.625rem;
     @include responsive-size(25rem, 9.375rem, 18.75rem, 5.625rem);
+}
+
+////////////////////////////////////////////
+///
+/// Banner página Origen (Home)
+///
+
+
+.bHome {
+    position: relative;
+
+}
+
+.carouselHome {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+}
+
+.bHomeImag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.bHomeImag:nth-child(1) {
+    animation: slide 10s infinite 0s;
+}
+
+.bHomeImag:nth-child(2) {
+    animation: slide 10s infinite 5s;
+}
+
+.bHomeImag:nth-child(3) {
+    animation: slide 5s infinite 10s;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.bHomeTexto {
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    transform: translate(-10%, 0%);
+    text-align: left;
+    color: $color_4;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.bHomeTitulo {
+    font-size: 6.25rem;
+    padding: 50px;
+}
+
+.bHomeFrase {
+    font-size: 1.125rem;
+    text-indent: 20px;
+    padding-left: 300px;
+    padding-bottom: 20px;
+
+}
+
+.bButtonHome {
+    width: 15.625rem;
+    height: 3.125rem;
+    border-radius: .9375rem;
+    margin: 20px;
+    position: absolute;
+    right: 20px;
+    /* Posiciona el botón a 20px del borde derecho */
+    bottom: 20px;
+    /* Posiciona el botón a 20px del borde inferior */
+}
+
+.bButtonHome:hover {
+    background-color: $color_1;
+}
+
+@media (max-width: 768px) {
+    .carouselHome {
+        height: 350px;
+    }
+
+    .bHomeTitulo {
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .bHomeFrase {
+        font-size: .875rem;
+        text-indent: 20px;
+        padding-left: 100px;
+        padding-bottom: 20px;
+    }
+
+    .bButtonHome {
+        font-size: .875rem;
+        width: 200px;
+        height: 2.1875rem;
+        border-radius: 10px;
+        margin: 0px;
+        position: absolute;
+        bottom: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .carouselHome {
+            height: 300px;
+        }
+    .bHomeTexto {
+        height: 80%;
+    }
+
+    .bHomeTitulo {
+        font-size: 35px;
+        padding: 5px;
+    }
+
+    .bHomeFrase {
+        font-size: .75rem;
+        text-indent: 20px;
+        padding: .9375rem;
+    }
 }

@@ -20,9 +20,16 @@
 
 //////////////////////////////////////////////////
 /// Grid de Origen (Home)
-.gridTelares {
+
+// Grid de la página home de 7culmns y 6 rows
+.gridHomeTelares {
     display: grid;
-    grid-template-columns:0.5fr repeat(5, 1fr) 0.5fr;
+    grid-template-columns: 0.5fr repeat(5, 1fr) 0.5fr;
     grid-template-rows: repeat(4, 100px 600px 100px 100px) 100px;
-    margin: 20;
+    margin: 20px;
+
+    @media (max-width: 400px) {
+        grid-template-rows: repeat(4, 100px 400px 600px 100px) 100px;
+    }
 }
+
