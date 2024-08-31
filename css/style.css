@@ -10141,11 +10141,9 @@ h1, .h1, h2, .h2 {
   padding: 25px; }
   .origenTextHistory h3, .origenTextHistory .h3 {
     padding-top: 3.125rem;
-    padding-bottom: 5rem;
+    padding-bottom: 50px;
     color: #D9D9D9;
     font-size: 50px; }
-  .origenTextHistory div p {
-    font-size: 16px; }
 
 .origenTextHistory1 {
   grid-area: 2 / 4 / 4 / 6; }
