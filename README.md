@@ -58,8 +58,8 @@ El sitio web está desplegado en **Netlify**. Puedes visitarlo en el siguiente e
 - **Repositorio en GitHub**: [Telar Oncebay en GitHub](https://github.com/mardony/comision57670)
 - **GitHub Pages**: [Telar Oncebay en GitHub Pages](https://mardony.github.io/comision57670/)
 - **Figma (Diseño)**: [Diseño de Telar Oncebay en Figma](https://www.figma.com/design/zew7vAzfT8oxjUiwpvZz9N/Web---App?node-id=0-1&t=XlRGfzmhLFbl78EP-1)
-- **Servidor de Producción**: [Telar Oncebay en Producción](https://main--telar11bay.netlify.app/)
-- **Presupuesto del Proyecto**: [Proyecto página web Telar Oncebay](https://www.canva.com/design/DAGPA5IQ_Z8/xaAIiBi7R813xn-u3bK8Cw/edit?utm_content=DAGPA5IQ_Z8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Servidor netlify de Producción**: [Telar Oncebay en Producción](https://main--telar11bay.netlify.app/)
+- **Presupuesto del Proyecto telar 11bay**: [Proyecto página web Telar Oncebay](https://www.canva.com/design/DAGPA5IQ_Z8/xaAIiBi7R813xn-u3bK8Cw/edit?utm_content=DAGPA5IQ_Z8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ## Instalación y Uso
