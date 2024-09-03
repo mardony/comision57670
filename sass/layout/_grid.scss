@@ -16,6 +16,10 @@
     gap: 2rem;
     margin-top: 200px;
     margin-bottom: 3.125rem;
+    padding: 0px 12.5rem;
+    @media (max-width: 768px ) {
+        padding: 0px;
+    }
 }
 
 //////////////////////////////////////////////////
@@ -33,3 +37,13 @@
     }
 }
 
+
+//////////////////////////////////////////////////
+/// Grid Visitanos
+
+.gridVisitanos{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7,auto);
+    gap: 1.875rem;
+}

@@ -1,10 +1,287 @@
 @charset "UTF-8";
+/* From Uiverse.io by emmanuelh-dev */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruslan+Display&display=swap");
+.socket {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 78%;
+  margin-left: -120px;
+  top: 162%;
+  margin-top: -100px; }
+
+.hex-brick {
+  background: #F33829;
+  width: 30px;
+  height: 17px;
+  position: absolute;
+  top: 5px;
+  animation-name: fade00;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: fade00;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite; }
+
+.h2 {
+  transform: rotate(60deg);
+  -webkit-transform: rotate(60deg); }
+
+.h3 {
+  transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg); }
+
+.gel {
+  height: 30px;
+  width: 30px;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+
+.center-gel {
+  margin-left: -15px;
+  margin-top: -15px;
+  animation-name: pulse00;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: pulse00;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite; }
+
+.c1 {
+  margin-left: -47px;
+  margin-top: -15px; }
+
+.c2 {
+  margin-left: -31px;
+  margin-top: -43px; }
+
+.c3 {
+  margin-left: 1px;
+  margin-top: -43px; }
+
+.c4 {
+  margin-left: 17px;
+  margin-top: -15px; }
+
+.c5 {
+  margin-left: -31px;
+  margin-top: 13px; }
+
+.c6 {
+  margin-left: 1px;
+  margin-top: 13px; }
+
+.c7 {
+  margin-left: -63px;
+  margin-top: -43px; }
+
+.c8 {
+  margin-left: 33px;
+  margin-top: -43px; }
+
+.c9 {
+  margin-left: -15px;
+  margin-top: 41px; }
+
+.c10 {
+  margin-left: -63px;
+  margin-top: 13px; }
+
+.c11 {
+  margin-left: 33px;
+  margin-top: 13px; }
+
+.c12 {
+  margin-left: -15px;
+  margin-top: -71px; }
+
+.c13 {
+  margin-left: -47px;
+  margin-top: -71px; }
+
+.c14 {
+  margin-left: 17px;
+  margin-top: -71px; }
+
+.c15 {
+  margin-left: -47px;
+  margin-top: 41px; }
+
+.c16 {
+  margin-left: 17px;
+  margin-top: 41px; }
+
+.c17 {
+  margin-left: -79px;
+  margin-top: -15px; }
+
+.c18 {
+  margin-left: 49px;
+  margin-top: -15px; }
+
+.c19 {
+  margin-left: -63px;
+  margin-top: -99px; }
+
+.c20 {
+  margin-left: 33px;
+  margin-top: -99px; }
+
+.c21 {
+  margin-left: 1px;
+  margin-top: -99px; }
+
+.c22 {
+  margin-left: -31px;
+  margin-top: -99px; }
+
+.c23 {
+  margin-left: -63px;
+  margin-top: 69px; }
+
+.c24 {
+  margin-left: 33px;
+  margin-top: 69px; }
+
+.c25 {
+  margin-left: 1px;
+  margin-top: 69px; }
+
+.c26 {
+  margin-left: -31px;
+  margin-top: 69px; }
+
+.c27 {
+  margin-left: -79px;
+  margin-top: -15px; }
+
+.c28 {
+  margin-left: -95px;
+  margin-top: -43px; }
+
+.c29 {
+  margin-left: -95px;
+  margin-top: 13px; }
+
+.c30 {
+  margin-left: 49px;
+  margin-top: 41px; }
+
+.c31 {
+  margin-left: -79px;
+  margin-top: -71px; }
+
+.c32 {
+  margin-left: -111px;
+  margin-top: -15px; }
+
+.c33 {
+  margin-left: 65px;
+  margin-top: -43px; }
+
+.c34 {
+  margin-left: 65px;
+  margin-top: 13px; }
+
+.c35 {
+  margin-left: -79px;
+  margin-top: 41px; }
+
+.c36 {
+  margin-left: 49px;
+  margin-top: -71px; }
+
+.c37 {
+  margin-left: 81px;
+  margin-top: -15px; }
+
+.r1 {
+  animation-name: pulse00;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: .2s;
+  -webkit-animation-name: pulse00;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: .2s; }
+
+.r2 {
+  animation-name: pulse00;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: .4s;
+  -webkit-animation-name: pulse00;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: .4s; }
+
+.r3 {
+  animation-name: pulse00;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: .6s;
+  -webkit-animation-name: pulse00;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: .6s; }
+
+.r1 > .hex-brick {
+  animation-name: fade00;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: .2s;
+  -webkit-animation-name: fade00;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: .2s; }
+
+.r2 > .hex-brick {
+  animation-name: fade00;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: .4s;
+  -webkit-animation-name: fade00;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: .4s; }
+
+.r3 > .hex-brick {
+  animation-name: fade00;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: .6s;
+  -webkit-animation-name: fade00;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: .6s; }
+
+@keyframes pulse00 {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(0.01);
+    transform: scale(0.01); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes fade00 {
+  0% {
+    background: #027381; }
+  50% {
+    background: #440B11; }
+  100% {
+    background: #F33829; } }
+
 /*!
    * Bootstrap  v5.3.3 (https://getbootstrap.com/)
    * Copyright 2011-2024 The Bootstrap Authors
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruslan+Display&display=swap");
 :root,
 [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
@@ -9508,64 +9785,204 @@ h1, .h1, h2, .h2 {
     text-indent: 20px;
     padding: .9375rem; } }
 
-.maestroTejedor {
-  width: 400px;
-  height: 500px; }
-  @media (max-width: 768px) {
-    .maestroTejedor {
-      width: 250px;
-      height: 350px; } }
-  @media (max-width: 480px) {
-    .maestroTejedor {
-      width: 100px;
-      height: 200px; } }
+.vBienvenida {
+  height: 500px;
+  background-image: linear-gradient(to bottom, #000000, #393939, #737373, #b2b2b2, #f5f5f5); }
+
+.vTitulo {
+  margin: 0rem 15.625rem;
+  font-size: 3.75rem;
+  padding: 3.125rem;
+  color: #F33829; }
+
+.vPresentacion {
+  width: 75%;
+  margin: 0 auto;
+  color: #F33829;
+  color: #FFFFFF;
+  font-size: 1.375rem; }
+
+.vImgMarcoSI {
+  grid-area: 1 / 1 / 3 / 5; }
+
+.vImgMarcoSD {
+  justify-self: end;
+  /* Alineamos la imagen al final del eje principal (derecha) */
+  align-self: end;
+  /* Alineamos la imagen al final del eje cruzado (abajo) */
+  grid-area: 2 / 4 / 3 / 7; }
+
+.vImgMarcoMI1 {
+  grid-area: 3 / 1 / 4 / 2; }
+
+.vImgMarcoMI2 {
+  align-self: center;
+  grid-area: 4 / 1 / 5 / 2; }
+
+.vImgMarcoMI3 {
+  grid-area: 5 / 1 / 6 / 2; }
+
+.vImgMarcoMD {
+  justify-self: end;
+  /* Alineamos la imagen al final del eje principal (derecha) */
+  align-self: center;
+  /* Alineamos la imagen al final del eje cruzado (centro) */
+  grid-area: 3 / 6 / 6 / 7; }
+
+.vImgMarcoII {
+  grid-area: 6 / 1 / 7 / 5; }
+
+.vImgMarcoID {
+  justify-self: end;
+  /* Alineamos la imagen al final del eje principal (derecha) */
+  align-self: end;
+  /* Alineamos la imagen al final del eje cruzado (abajo) */
+  grid-area: 6 / 5 / 8 / 7; }
 
 .visitasGuiadas {
-  background-color: #0EB9CB;
-  margin: 3.125rem 0; }
-
-.paginaVistita {
-  display: block;
-  padding: 3.125rem 15.625rem; }
-  @media (max-width: 768px) {
-    .paginaVistita {
-      padding: 3.125rem 4.375rem; } }
-  @media (max-width: 400px) {
-    .paginaVistita {
-      padding: 3.125rem 40px; } }
+  grid-area: 3 / 2 / 4 / 6; }
 
 .guiaMaestroTejedor {
   display: flex;
-  padding: 1.5625rem; }
-  @media (max-width: 400px) {
-    .guiaMaestroTejedor {
-      display: block;
-      padding: .625rem; } }
+  justify-content: space-between;
+  /* Separa los elementos horizontalmente */
+  align-items: center;
+  /* Centra los elementos verticalmente */ }
+
+.opcionesGuiadas {
+  font-size: 2.5rem;
+  padding-bottom: 1.875rem;
+  color: #F33829; }
 
 .guiasMaestro {
-  padding: 1.5625rem; }
-  @media (max-width: 768px) {
-    .guiasMaestro {
-      font-size: 1rem; } }
-  @media (max-width: 400px) {
-    .guiasMaestro {
-      font-size: 0.75rem; } }
+  margin-left: 1.5625rem; }
+
+.maestroTejedor {
+  width: 100%; }
+
+.telarRunaImg {
+  grid-area: 4 / 2 / 5 / 6; }
+
+.vMascara {
+  grid-area: 4 / 2 / 5 / 6;
+  width: 50%;
+  height: 100%;
+  background-color: #F33829;
+  clip-path: polygon(0% 0%, 30% 0%, 100% 80%, 100% 100%, 0% 100%); }
+
+.vDecorado {
+  position: relative;
+  grid-area: 4 / 2 / 5 / 6;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 6.25rem;
+  align-self: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); }
+
+.vPuntos {
+  font-size: 3.125rem; }
+
+.vAvisoTitle {
+  font-size: 7.5rem;
+  font-weight: bold; }
+
+.vList {
+  list-style: none;
+  font-size: 25px;
+  padding: 0; }
+
+.RecorridoVisita {
+  padding: 3.125rem 1.25rem 0rem 1.25rem;
+  grid-area: 5 / 2 / 6 / 6; }
+
+@media (max-width: 1440px) {
+  .socket {
+    left: 87%;
+    top: 140%; }
+  .vTitulo {
+    font-size: 3.125rem;
+    margin: 0rem 7.5rem; }
+  .vtextPresentacion {
+    font-size: 1.125rem; } }
 
 @media (max-width: 768px) {
-  .paginaBienvenida {
-    font-size: 50px; } }
+  .vtextPresentacion {
+    font-size: 1rem; }
+  .vTitulo {
+    font-size: 2.1875rem;
+    margin: 0rem 3.125rem; }
+  .vImgMarco {
+    width: 80%; }
+  .telarRunaImg {
+    width: 100%; }
+  .vMascara {
+    height: 100%; }
+  .vImgMarcoSI {
+    height: 120%; }
+  .vImgMarcoSD {
+    height: 4.375rem; }
+  .vDecorado {
+    padding: 45px; }
+  .vAvisoTitle {
+    font-size: 65px; }
+  .vList {
+    font-size: 1rem; }
+  .guiasMaestro {
+    font-size: .8125rem; }
+  .vImgMarcoMI1 {
+    height: 100%; }
+  .vImgMarcoMI2 {
+    width: 120%;
+    height: 100%; }
+  .vImgMarcoMI3 {
+    height: 100%; }
+  .vImgMarcoMD {
+    height: 100%; }
+  .vImgMarcoII {
+    width: 100%;
+    height: 100%; }
+  .socket {
+    left: 82%;
+    top: 85%; } }
 
 @media (max-width: 400px) {
-  .paginaBienvenida {
-    font-size: 30px; } }
-
-@media (max-width: 768px) {
+  .vBienvenida {
+    height: 650px;
+    background-image: linear-gradient(to bottom, #000000, #393939, #737373, #b2b2b2, #f5f5f5); }
+  .vTitulo {
+    font-size: 1.25rem;
+    padding: 1.5625rem; }
+  .vPresentacion {
+    padding-left: 1.5625rem;
+    left: 1.5625rem; }
+  .vtextPresentacion {
+    font-size: .8125rem; }
+  .socket {
+    left: 60%;
+    top: 90%; }
+  .vDecorado {
+    padding: 0rem .9375rem; }
+  .vAvisoTitle {
+    font-size: 1.875rem; }
+  .vList {
+    font-size: .75rem; }
+  .telarRunaImg {
+    height: 100%; }
+  .vImgMarcoMI2 {
+    height: 100%; }
+  .visitasGuiadas {
+    padding: .625rem; }
+  .guiaMaestroTejedor {
+    display: block;
+    justify-content: space-between;
+    /* Separa los elementos horizontalmente */
+    align-items: center;
+    /* Centra los elementos verticalmente */ }
   .opcionesGuiadas {
-    font-size: 2.1875rem; } }
-
-@media (max-width: 400px) {
-  .opcionesGuiadas {
-    font-size: 1.5625rem; } }
+    padding: 0rem;
+    font-size: 1.25rem; }
+  .guiasMaestro {
+    margin: 2.1875rem 0rem; } }
 
 .imgIsotipoCompra {
   width: 20%;
@@ -9832,6 +10249,12 @@ h1, .h1, h2, .h2 {
   .reseñaCultural {
     font-size: .75rem; } }
 
+.btnComprarProducto:hover {
+  background-color: #027381; }
+
+.leerMasTelares:hover {
+  color: #F33829; }
+
 .imgTelarHombreandino {
   width: 80%;
   height: auto; }
@@ -9926,6 +10349,9 @@ h1, .h1, h2, .h2 {
   color: #D9D9D9;
   margin-bottom: 3.125rem; }
 
+.describeTelar11, .describeTelar12, .describeTelar13 {
+  display: none; }
+
 .significadoProducto2 {
   grid-area: 6 / 1 / 7 / 3;
   display: block;
@@ -9950,9 +10376,7 @@ h1, .h1, h2, .h2 {
   .describeTelar2,
   .describeTelar3 {
     display: none; }
-  .describeTelar11,
-  .describeTelar12,
-  .describeTelar13 {
+  .describeTelar11, .describeTelar12, .describeTelar13 {
     display: block; }
   .btnComprarProducto {
     padding: 9px 30px;
@@ -10138,7 +10562,9 @@ h1, .h1, h2, .h2 {
   grid-area: 14 / 6 / 17 / 7; }
 
 .origenTextHistory {
-  padding: 25px; }
+  padding: 25px;
+  color: #D9D9D9;
+  font-size: 16px; }
   .origenTextHistory h3, .origenTextHistory .h3 {
     padding-top: 3.125rem;
     padding-bottom: 50px;
@@ -10300,7 +10726,11 @@ h1, .h1, h2, .h2 {
   grid-template-rows: repeat(9, auto);
   gap: 2rem;
   margin-top: 200px;
-  margin-bottom: 3.125rem; }
+  margin-bottom: 3.125rem;
+  padding: 0px 12.5rem; }
+  @media (max-width: 768px) {
+    .gridProductoTelar {
+      padding: 0px; } }
 
 .gridHomeTelares {
   display: grid;
@@ -10310,6 +10740,12 @@ h1, .h1, h2, .h2 {
   @media (max-width: 400px) {
     .gridHomeTelares {
       grid-template-rows: repeat(4, 100px 400px 600px 100px) 100px; } }
+
+.gridVisitanos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(7, auto);
+  gap: 1.875rem; }
 
 .icoMedioPago {
   width: 50px;

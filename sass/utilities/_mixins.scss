@@ -345,76 +345,242 @@
 @mixin origen-max-width-400 {
     @media(max-width: 400px) {
 
-            .tejidosOrigen {
-                padding: 0px;
-            }
+        .tejidosOrigen {
+            padding: 0px;
+        }
 
-            .oImgTelar1 {
-                @include grid-area-telar(2, 2, 3, 7)
-            }
+        .oImgTelar1 {
+            @include grid-area-telar(2, 2, 3, 7)
+        }
 
-            .oImgTelar2 {
-                @include grid-area-telar(6, 2, 7, 7)
-            }
+        .oImgTelar2 {
+            @include grid-area-telar(6, 2, 7, 7)
+        }
 
-            .oImgTelar3 {
-                @include grid-area-telar(10, 2, 11, 7)
-            }
+        .oImgTelar3 {
+            @include grid-area-telar(10, 2, 11, 7)
+        }
 
-            .oImgTelar4 {
-                @include grid-area-telar(14, 2, 15, 7)
-            }
+        .oImgTelar4 {
+            @include grid-area-telar(14, 2, 15, 7)
+        }
 
-            .origenTextHistory {
-                padding: .9375rem;
+        .origenTextHistory {
+            padding: .9375rem;
 
-                div {
-                    p {
-                        font-size: 12px;
-                    }
+            div {
+                p {
+                    font-size: 12px;
                 }
             }
-
-            .origenTextHistory1 {
-                @include grid-area-telar(3, 2, 4, 7)
-            }
-
-            .origenTextHistory2 {
-                @include grid-area-telar(7, 2, 8, 7)
-            }
-
-            .origenTextHistory3 {
-                @include grid-area-telar(11, 2, 12, 7)
-            }
-
-            .origenTextHistory4 {
-                @include grid-area-telar(15, 2, 16, 7)
-            }
-
-            .origenDescripcionImagen {
-
-                font-size: .75rem;
-            }
-
-            .textOrigen {
-                margin: .9375rem;
-                padding-right: 35px;
-                letter-spacing: 15px;
-            }
-
-            .origenFondoAlternativo,
-            .origenFondoComplemento {
-                display: none;
-            }
-
-            .origenDescripcionImagen {
-                display: none;
-            }
         }
+
+        .origenTextHistory1 {
+            @include grid-area-telar(3, 2, 4, 7)
+        }
+
+        .origenTextHistory2 {
+            @include grid-area-telar(7, 2, 8, 7)
+        }
+
+        .origenTextHistory3 {
+            @include grid-area-telar(11, 2, 12, 7)
+        }
+
+        .origenTextHistory4 {
+            @include grid-area-telar(15, 2, 16, 7)
+        }
+
+        .origenDescripcionImagen {
+
+            font-size: .75rem;
+        }
+
+        .textOrigen {
+            margin: .9375rem;
+            padding-right: 35px;
+            letter-spacing: 15px;
+        }
+
+        .origenFondoAlternativo,
+        .origenFondoComplemento {
+            display: none;
+        }
+
+        .origenDescripcionImagen {
+            display: none;
+        }
+
+    }
 }
 
 ///////////////////////////////////////////////////////
 /// Mejoras
 @mixin gradiente-dos-colores($direcion, $colo1, $color2) {
     background-image: linear-gradient($direcion, $colo1, $color2);
+}
+
+///////////////////////////////////////////////////////
+/// PÁGINA VISITANOS
+
+@mixin visitanos-max-width-1440 {
+    @media (max-width:1440px) {
+        .socket {
+            left: 87%;
+            top: 140%;
+        }
+
+        .vTitulo {
+            font-size: 3.125rem;
+            margin: 0rem 7.5rem;
+        }
+
+        .vtextPresentacion {
+            font-size: 1.125rem;
+        }
+    }
+}
+
+@mixin visitanos-max-width-768 {
+    @media (max-width: 768px) {
+        .vtextPresentacion {
+            font-size: 1rem;
+        }
+
+        .vTitulo {
+            font-size: 2.1875rem;
+            margin: 0rem 3.125rem;
+        }
+
+        .vImgMarco {
+            width: 80%;
+        }
+
+        .telarRunaImg {
+            width: 100%;
+        }
+
+        .vMascara {
+            height: 100%;
+        }
+
+        .vImgMarcoSI {
+            height: 120%;
+        }
+
+        .vImgMarcoSD {
+            height: 4.375rem;
+        }
+
+        .vDecorado {
+            padding: 45px;
+        }
+
+        .vAvisoTitle {
+            font-size: 65px;
+        }
+
+        .vList {
+            font-size: 1rem;
+        }
+
+        .guiasMaestro {
+            font-size: .8125rem;
+        }
+
+        .vImgMarcoMI1 {
+            height: 100%;
+        }
+
+        .vImgMarcoMI2 {
+            width: 120%;
+            height: 100%;
+        }
+
+        .vImgMarcoMI3 {
+            height: 100%;
+        }
+
+        .vImgMarcoMD {
+            height: 100%;
+        }
+
+        .vImgMarcoII {
+            width: 100%;
+            height: 100%;
+        }
+
+        .socket {
+            left: 82%;
+            top: 85%;
+        }
+    }
+}
+
+@mixin visitanos-max-width-400 {
+    @media (max-width:400px) {
+        .vBienvenida {
+            height: 650px;
+            background-image: linear-gradient(to bottom, #000000, #393939, #737373, #b2b2b2, #f5f5f5);
+        }
+
+        .vTitulo {
+            font-size: 1.25rem;
+            padding: 1.5625rem;
+        }
+
+        .vPresentacion {
+            padding-left: 1.5625rem;
+            left: 1.5625rem;
+        }
+
+        .vtextPresentacion {
+            font-size: .8125rem;
+        }
+
+        .socket {
+            left: 60%;
+            top: 90%;
+        }
+
+        .vDecorado {
+            padding: 0rem .9375rem;
+        }
+
+        .vAvisoTitle {
+            font-size: 1.875rem;
+        }
+
+        .vList {
+            font-size: .75rem;
+        }
+
+        .telarRunaImg {
+            height: 100%;
+        }
+
+        .vImgMarcoMI2 {
+            height: 100%;
+
+        }
+        .visitasGuiadas{
+            padding: .625rem;
+        }
+
+        .guiaMaestroTejedor {
+            display: block;
+
+            justify-content: space-between;
+            /* Separa los elementos horizontalmente */
+            align-items: center;
+            /* Centra los elementos verticalmente */
+        }
+        .opcionesGuiadas{
+            padding: 0rem;
+            font-size: 1.25rem;
+        }
+        .guiasMaestro{
+            margin: 2.1875rem 0rem;
+        }
+    }
 }

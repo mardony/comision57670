@@ -1,3 +1,9 @@
+.btnComprarProducto:hover{
+    background-color: $color_5;
+}
+.leerMasTelares:hover{
+    color: $color_1;
+}
 .imgTelarHombreandino {
     @include img-style(80%);
 }
@@ -59,7 +65,9 @@
     @include grid-area-telar(3, 1, 4, 3);
     @include significadoProducto();
 }
-
+.describeTelar11, .describeTelar12, .describeTelar13{
+    display: none;
+}
 .significadoProducto2 {
     @include grid-area-telar(6, 1, 7, 3);
     @include significadoProducto();
@@ -71,6 +79,7 @@
 }
 
 @media (max-width: 768px) {
+
     .imgIsotipoAgua {
         width: 50%;
         height: 15%;
