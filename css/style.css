@@ -277,6 +277,38 @@
   100% {
     background: #F33829; } }
 
+.ctAnimation {
+  color: #027381;
+  position: absolute;
+  left: 0;
+  font-size: 70px;
+  /* Ajusta el tamaño según tus necesidades */
+  animation: deslizarYdesaparecer 5s linear infinite; }
+
+.ctAnimation:nth-child(2) {
+  animation-delay: 0.8s; }
+
+.ctAnimation:nth-child(3) {
+  animation-delay: 1.6s; }
+
+.ctAnimation:nth-child(4) {
+  animation-delay: 2.4s; }
+
+@keyframes deslizarYdesaparecer {
+  0% {
+    opacity: 1;
+    transform: translateX(0) scale(1); }
+  75% {
+    transform: translateX(1440px) scale(1.2); }
+  80% {
+    opacity: 0; }
+  85% {
+    opacity: 0;
+    transform: translateX(-1440px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
 /*!
    * Bootstrap  v5.3.3 (https://getbootstrap.com/)
    * Copyright 2011-2024 The Bootstrap Authors
@@ -10141,113 +10173,203 @@ h1, .h1, h2, .h2 {
   display: flex;
   justify-content: space-between; }
 
-.imgTelarCultural {
-  width: 110%; }
+.culturaTelar {
+  background-color: #1E1E1E; }
 
-.gridCulturaTelar {
-  display: grid;
-  grid-template-columns: 1.5fr 4fr;
-  grid-template-rows: auto auto auto;
-  gap: 3rem;
-  padding: 3.125rem 9.375rem;
-  margin-top: 3.125rem;
-  margin-bottom: 3.125rem; }
+.ctImgCultura1,
+.ctMarcara1,
+.ctDescripcionCultura1, .ctResumen1 {
+  grid-area: 1 / 1 / 2 / 3; }
 
-.historyCultural {
-  padding-left: 3.125rem; }
+.ctImgCultura2, .ctMarcara2, .ctDescripcionCultura2, .ctResumen2 {
+  grid-area: 1 / 3 / 2 / 5; }
 
-.imgTelarCulto1 {
-  grid-area: 1 / 1 / 2 / 2;
+.ctImgCultura3, .ctMarcara3, .ctDescripcionCultura3, .ctResumen3 {
+  grid-area: 2 / 1 / 3 / 3; }
+
+.ctImgCultura4,
+.ctMarcara4, .ctDescripcionCultura4, .ctResumen4 {
+  grid-area: 2 / 3 / 3 / 5; }
+
+.ctImgCultura5,
+.ctMarcara5, .ctDescripcionCultura5, .ctResumen5 {
+  grid-area: 3 / 1 / 4 / 3; }
+
+.ctImgCultura6,
+.ctMarcara6, .ctDescripcionCultura6, .ctResumen6 {
+  grid-area: 3 / 3 / 4 / 5; }
+
+.ctDescripcionCultura {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  color: #FFFFFF;
+  line-height: 0;
+  letter-spacing: 5px; }
+  .ctDescripcionCultura h2, .ctDescripcionCultura .h2 {
+    font-size: 3.4375rem; }
+  .ctDescripcionCultura p {
+    font-size: 1.875rem;
+    color: #F33829; }
+
+.ctMarcara1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40%;
+  height: 100%; }
+
+.ctMarcara2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 40%; }
+
+.ctMarcara3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 40%;
+  align-self: end; }
+
+.ctMarcara4 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40%;
+  height: 100%;
+  justify-self: end; }
+
+.ctMarcara5 {
+  background-color: rgba(0, 0, 0, 0.5);
+  clip-path: polygon(0% 0%, 30% 0%, 50% 50%, 30% 100%, 0% 100%); }
+
+.ctMarcara6 {
+  background-color: rgba(0, 0, 0, 0.5);
+  clip-path: polygon(100% 0%, 70% 0%, 50% 50%, 70% 100%, 100% 100%); }
+
+.ctDescripcionCultura1 {
+  align-self: center;
+  justify-self: start;
+  transform: rotate(-90deg);
+  font-weight: bold; }
+
+.ctDescripcionCultura2 {
+  padding-top: 20%;
+  justify-self: center;
+  font-weight: bold; }
+
+.ctDescripcionCultura3 {
+  align-self: end;
+  justify-self: center;
+  font-weight: bold;
+  padding-bottom: 20%; }
+
+.ctDescripcionCultura4 {
+  align-self: center;
+  justify-self: start;
+  font-weight: bold;
+  transform: rotate(90deg);
+  padding-bottom: 40%; }
+
+.ctDescripcionCultura5 {
+  align-self: center;
+  justify-self: start;
+  transform: rotate(-90deg);
+  font-weight: bold;
+  padding-bottom: 50%; }
+
+.ctDescripcionCultura6 {
+  align-self: center;
+  justify-self: start;
+  font-weight: bold;
+  transform: rotate(90deg);
+  padding-bottom: 50%; }
+
+.ctResumen {
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  text-shadow: 2px 2px 4px black;
+  color: #FFFFFF;
+  font-size: 1rem; }
 
-.imgTelarCulto2 {
-  grid-area: 2 / 1 / 3 / 2;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.ctResumenDetalle12,
+.ctResumenDetalle22,
+.ctResumenDetalle32,
+.ctResumenDetalle42,
+.ctResumenDetalle52,
+.ctResumenDetalle62 {
+  display: none; }
 
-.imgTelarCulto3 {
-  grid-area: 3 / 1 / 4 / 2;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.ctResumenDetalle11 {
+  padding-top: 6.25rem;
+  padding-left: 18.75rem; }
 
-.historyCultural1 {
-  grid-area: 1 / 2 / 2 / 3; }
+.ctResumenDetalle21 {
+  align-self: end;
+  padding: 0rem .625rem 6.25rem 17.5rem; }
 
-.historyCultural2 {
-  grid-area: 2 / 2 / 3 / 3; }
+.ctResumenDetalle31 {
+  padding-top: 6.25rem;
+  padding-left: 18.75rem; }
 
-.historyCultural3 {
-  grid-area: 3 / 2 / 4 / 3; }
+.ctResumenDetalle41 {
+  align-self: end;
+  padding: 0rem 17.5rem 6.25rem .625rem; }
 
-.titleHistoriaCultural {
-  color: #027381;
-  margin-top: 3.125rem;
-  margin-bottom: 3.125rem;
-  font-size: 3.125rem;
-  padding-right: 2.5rem; }
+.ctResumenDetalle51 {
+  padding-top: 6.25rem;
+  padding-left: 18.75rem; }
+
+.ctResumenDetalle61 {
+  align-self: end;
+  padding: 0rem 17.5rem 6.25rem .625rem; }
+
+@media (max-width: 1440px) {
+  .ctResumen {
+    font-size: .9375rem; }
+  .ctImgCultura {
+    width: 100%; }
+  .ctDescripcionCultura h2, .ctDescripcionCultura .h2 {
+    font-size: 2.8125rem; } }
 
 @media (max-width: 768px) {
-  .gridCulturaTelar {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 0px;
-    padding: 2.5rem;
-    margin-bottom: 1.5625rem; }
-  .imgTelarCultural {
-    width: 100%;
-    justify-content: center;
-    align-items: center; }
-  .titleHistoriaCultural {
-    font-size: 1.875rem;
-    margin-top: 1.875rem;
-    margin-bottom: 1.875rem; }
-  .reseñaCultural {
+  .ctAnimation {
+    font-size: 50px; }
+  .ctResumen {
     font-size: .75rem; }
-  .historyCultural {
-    padding-left: 1.5625rem;
-    margin-bottom: 1.5625rem; } }
+  .ctDescripcionCultura h2, .ctDescripcionCultura .h2 {
+    font-size: 1.875rem; }
+  .ctDescripcionCultura p {
+    font-size: 1.25rem; }
+  .ctResumenDetalle11 {
+    padding-top: 3.125rem;
+    padding-left: 11.25rem; }
+  .ctResumenDetalle21 {
+    align-self: end;
+    padding: 0rem .625rem 3.125rem 9.375rem; }
+  .ctResumenDetalle31 {
+    padding-top: 3.125rem;
+    padding-left: 11.25rem; }
+  .ctResumenDetalle41 {
+    align-self: end;
+    padding: 0rem 9.375rem 3.125rem .625rem; }
+  .ctResumenDetalle51 {
+    padding-top: 3.125rem;
+    padding-left: 11.25rem; }
+  .ctResumenDetalle61 {
+    align-self: end;
+    padding: 0rem 9.375rem 3.125rem .625rem; } }
 
 @media (max-width: 400px) {
-  .imgTelarCultural {
-    width: 100%;
-    justify-content: center;
-    align-items: center; }
-  .gridCulturaTelar {
-    display: none; }
-  .gridCulturaTelar {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, auto);
-    gap: 1rem;
-    padding: 1.5625rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem; }
-  .imgTelarCulto1 {
-    grid-area: 1 / 1 / 2 / 2;
-    display: flex; }
-  .historyCultural1 {
-    display: block;
+  .ctImgCultura1,
+  .ctMarcara1,
+  .ctDescripcionCultura1, .ctResumen1 {
+    grid-area: 1 / 1 / 2 / 2; }
+  .ctImgCultura2, .ctMarcara2, .ctDescripcionCultura2, .ctResumen2 {
     grid-area: 2 / 1 / 3 / 2; }
-  .imgTelarCulto2 {
-    grid-area: 3 / 1 / 4 / 2;
-    display: flex; }
-  .historyCultural2 {
-    display: block;
+  .ctImgCultura3, .ctMarcara3, .ctDescripcionCultura3, .ctResumen3 {
+    grid-area: 3 / 1 / 4 / 2; }
+  .ctImgCultura4,
+  .ctMarcara4, .ctDescripcionCultura4, .ctResumen4 {
     grid-area: 4 / 1 / 5 / 2; }
-  .imgTelarCulto3 {
-    grid-area: 5 / 1 / 6 / 2;
-    display: flex; }
-  .historyCultural3 {
-    display: block;
-    grid-area: 6 / 1 / 7 / 2; }
-  .titleHistoriaCultural {
-    font-size: 1.5625rem; }
-  .reseñaCultural {
-    font-size: .75rem; } }
+  .ctImgCultura5,
+  .ctMarcara5, .ctDescripcionCultura5, .ctResumen5 {
+    grid-area: 5 / 1 / 6 / 2; }
+  .ctImgCultura6,
+  .ctMarcara6, .ctDescripcionCultura6, .ctResumen6 {
+    grid-area: 6 / 1 / 7 / 2; } }
 
 .btnComprarProducto:hover {
   background-color: #027381; }
@@ -10449,6 +10571,7 @@ h1, .h1, h2, .h2 {
   color: #F33829; }
 
 .origenFondoAlternativo {
+  justify-self: center;
   width: 90%;
   height: 100%;
   background-color: #FFFFFF;
@@ -10470,7 +10593,7 @@ h1, .h1, h2, .h2 {
 .origenFondoComplemento {
   width: 100%;
   height: 100%;
-  background-color: #FFFFFF; }
+  background-color: #1E1E1E; }
 
 .origenFondoComplemento1 {
   grid-area: 4 / 1 / 5 / 3; }
@@ -10746,6 +10869,26 @@ h1, .h1, h2, .h2 {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(7, auto);
   gap: 1.875rem; }
+
+.gridCulturaTelar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 6.25rem;
+  padding: .5625rem;
+  margin: 9.375rem 12.5rem; }
+  @media (max-width: 768px) {
+    .gridCulturaTelar {
+      margin: 4.6875rem 3.125rem;
+      gap: 3.125rem; } }
+  @media (max-width: 400px) {
+    .gridCulturaTelar {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, auto);
+      gap: 3.125rem;
+      padding: 0rem;
+      margin: 4.6875rem 1.5625rem; } }
 
 .icoMedioPago {
   width: 50px;

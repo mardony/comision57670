@@ -340,4 +340,49 @@
 
 
 ////////////////////////////////////////////////
-///
+/// cultuta telar
+.ctAnimation {
+    color: $color_5;
+    position: absolute;
+    left: 0;
+    font-size: 70px;
+    /* Ajusta el tamaño según tus necesidades */
+    animation: deslizarYdesaparecer 5s linear infinite;
+}
+
+.ctAnimation:nth-child(2) {
+    animation-delay: 0.8s;
+}
+
+.ctAnimation:nth-child(3) {
+    animation-delay: 1.6s;
+}
+
+.ctAnimation:nth-child(4) {
+    animation-delay: 2.4s;
+}
+
+@keyframes deslizarYdesaparecer {
+    0% {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+
+    75% {
+        transform: translateX(1440px) scale(1.2);
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    85% {
+        opacity: 0;
+        transform: translateX(-1440px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
