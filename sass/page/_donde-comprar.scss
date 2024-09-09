@@ -2,7 +2,7 @@
     width: 20%;
     margin-top: 3.125rem;
     margin-left: 3.125rem;
-    @include responsive-img-size(30rem, 50rem);
+    @include responsive-img-size(30rem, 15.625rem);
 }
 
 .titleDondeComprar {
@@ -51,6 +51,7 @@
 .inicioContacto {
     display: flex;
     justify-content: space-between;
+    padding: .625rem;
 }
 
 .datosContacto,
@@ -62,7 +63,7 @@
     border-style: solid;
     border-width: .0625rem;
     border-color: rgb(160, 160, 160);
-    width: 98%;
+    width: 100%;
 
     @include responsive-block(".datosEntradaMedio", block);
 }
@@ -80,12 +81,17 @@
 .datosPagoM {
     margin-top: .625rem;
     padding: .5rem;
-    margin-left: .5rem;
+    margin-left: 1.375rem;
+    margin-right: 1.375rem;
     border-radius: .5rem;
     border-style: none;
-    width: 93%;
+    width: 92%;
 
     @include responsive-block(".datosPagoM", block);
+}
+
+.datosPagoSelect {
+    margin: 1.375rem;
 }
 
 .fechaPago {
@@ -93,6 +99,7 @@
 
     @include responsive-block(".fechaPago", block);
 }
+
 
 .guia {
     font-size: 1.25rem;
@@ -111,7 +118,7 @@
 }
 
 .datoCupon {
-    width: 50%;
+    width: 70%;
     padding: .5rem;
     border-radius: .5rem;
 
@@ -119,9 +126,10 @@
 }
 
 .datosCompraResumen {
-    font-size: 10px;
     padding-top: .625rem;
-    padding-left: 3.125rem;
+    padding-left: 12.5rem;
+    position: absolute;
+    font-size: 10px;
 }
 
 .btnDatoCupon,
@@ -140,7 +148,7 @@
         background-color: $color_9;
     }
 
-    @include responsive-block(".btnDatoCupon", block);
+    @include responsive-block(".btnDatoCupon", none);
 }
 
 .resumenMmonto {
@@ -149,3 +157,11 @@
     display: flex;
     justify-content: space-between;
 }
+.btnPagarTelar:hover {
+    background-color: $color_5;
+}
+
+.btnDatoCupon:hover {
+    background-color: $color_6;
+}
+@include donde-comprar-max-width-400;

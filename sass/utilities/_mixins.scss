@@ -130,6 +130,44 @@
     display: block;
 }
 
+@mixin donde-comprar-max-width-400 {
+    @media (max-width:400px) {
+
+        .datosCompraResumen {
+            padding-top: .625rem;
+            padding-left: 6.25rem;
+            position: absolute;
+            font-size: .625rem;
+        }
+
+        .cuponResumen {
+            display: block;
+
+            input {
+                width: 100%;
+                margin-bottom: .625rem;
+            }
+
+        }
+        .resumenMmonto{
+            font-size: .75rem;
+        }
+
+        .fechaPago{
+            display: block;
+        }
+        .contenedorFormPago{
+            font-size: .75rem;
+            input{
+                width: 80%;
+            }
+        }
+        .opcionPago{
+            display: none;
+        }
+    }
+
+}
 
 //////////////////////////////////////////////////
 /// mixin telares

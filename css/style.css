@@ -10026,7 +10026,7 @@ h1, .h1, h2, .h2 {
       margin-top: 3.125rem; } }
   @media (max-width: 400px) {
     .imgIsotipoCompra {
-      width: 50rem;
+      width: 15.625rem;
       margin-top: 3.125rem; } }
 
 .titleDondeComprar {
@@ -10073,7 +10073,8 @@ h1, .h1, h2, .h2 {
 
 .inicioContacto {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding: .625rem; }
 
 .datosContacto,
 .datosEntrada,
@@ -10084,7 +10085,7 @@ h1, .h1, h2, .h2 {
   border-style: solid;
   border-width: .0625rem;
   border-color: #a0a0a0;
-  width: 98%; }
+  width: 100%; }
   @media (max-width: 400px) {
     .datosContacto .datosEntradaMedio,
     .datosEntrada .datosEntradaMedio,
@@ -10102,14 +10103,18 @@ h1, .h1, h2, .h2 {
 .datosPagoM {
   margin-top: .625rem;
   padding: .5rem;
-  margin-left: .5rem;
+  margin-left: 1.375rem;
+  margin-right: 1.375rem;
   border-radius: .5rem;
   border-style: none;
-  width: 93%; }
+  width: 92%; }
   @media (max-width: 400px) {
     .datosPago .datosPagoM,
     .datosPagoM .datosPagoM {
       display: block; } }
+
+.datosPagoSelect {
+  margin: 1.375rem; }
 
 .fechaPago {
   display: flex; }
@@ -10137,7 +10142,7 @@ h1, .h1, h2, .h2 {
       display: block; } }
 
 .datoCupon {
-  width: 50%;
+  width: 70%;
   padding: .5rem;
   border-radius: .5rem; }
   @media (max-width: 400px) {
@@ -10145,9 +10150,10 @@ h1, .h1, h2, .h2 {
       display: block; } }
 
 .datosCompraResumen {
-  font-size: 10px;
   padding-top: .625rem;
-  padding-left: 3.125rem; }
+  padding-left: 12.5rem;
+  position: absolute;
+  font-size: 10px; }
 
 .btnDatoCupon,
 .btnPagarTelar {
@@ -10165,13 +10171,41 @@ h1, .h1, h2, .h2 {
   @media (max-width: 400px) {
     .btnDatoCupon .btnDatoCupon,
     .btnPagarTelar .btnDatoCupon {
-      display: block; } }
+      display: none; } }
 
 .resumenMmonto {
   margin-top: 3.125rem;
   margin-bottom: 3.125rem;
   display: flex;
   justify-content: space-between; }
+
+.btnPagarTelar:hover {
+  background-color: #027381; }
+
+.btnDatoCupon:hover {
+  background-color: #0EB9CB; }
+
+@media (max-width: 400px) {
+  .datosCompraResumen {
+    padding-top: .625rem;
+    padding-left: 6.25rem;
+    position: absolute;
+    font-size: .625rem; }
+  .cuponResumen {
+    display: block; }
+    .cuponResumen input {
+      width: 100%;
+      margin-bottom: .625rem; }
+  .resumenMmonto {
+    font-size: .75rem; }
+  .fechaPago {
+    display: block; }
+  .contenedorFormPago {
+    font-size: .75rem; }
+    .contenedorFormPago input {
+      width: 80%; }
+  .opcionPago {
+    display: none; } }
 
 .culturaTelar {
   background-color: #1E1E1E; }
