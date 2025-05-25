@@ -43,7 +43,7 @@ Información sobre cómo visitar los talleres y comunidades de tejedores en Ayac
 - **Sass**: Preprocesador CSS utilizado para facilitar el manejo de estilos y mejorar la mantenibilidad del código.
 - **Animaciones**: Implementación de animaciones para mejorar la experiencia de usuario.
 - **SEO**: Optimización del sitio para motores de búsqueda, mejorando la visibilidad y el ranking en los resultados de búsqueda.
-- **Netlify**: Plataforma de despliegue utilizada para alojar el sitio web y gestionar el dominio.
+- ![Static Badge](https://img.shields.io/badge/netlify-alojar%20el%20sitio%20web%20y%20gestionar%20el%20dominio-11bay1?style=for-the-badge&logo=netlify&logoColor=white&logoSize=50&color=red)
 - **Git**: Control de versiones utilizado para el seguimiento de cambios en el código.
 - **GitHub**: Repositorio en línea para la colaboración y el manejo del proyecto.
 - **Node.js**: Herramientas y paquetes utilizados durante el desarrollo.
