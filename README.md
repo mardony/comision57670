@@ -1,4 +1,5 @@
-<img height="100" width="100" src="https://res.cloudinary.com/dyfyvybx4/image/upload/v1748113285/OSIPTEL.svg" />
+
+<img height="150" width="700" src="https://res.cloudinary.com/dyfyvybx4/image/upload/v1748171290/banner_11bay_ikbtif.jpg" />
 
 Bienvenido al repositorio de **Telar Oncebay**, una web dedicada a la rica tradición de los telares en Ayacucho, Perú. Este proyecto busca compartir el legado cultural y la técnica artesanal de los tejedores ayacuchanos, promoviendo la apreciación y el comercio justo de estos productos únicos.
 
